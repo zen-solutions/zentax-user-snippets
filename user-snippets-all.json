@@ -1704,17 +1704,38 @@
         "description": "Horizontal list style"
     },
     
-    "list-success-warning-etc Structure": {
-        "prefix": "list-success-warning-etc",
+    "list-success Structure": {
+        "prefix": "list-success",
         "body": [
             "<ul class=\"list-group\">",
             "    <li class=\"list-group-item success\">Success</li>",
+            "</ul>"
+        ],
+        "description": "List with success style"
+    },"list-warning Structure": {
+        "prefix": "list-warning",
+        "body": [
+            "<ul class=\"list-group\">",
             "    <li class=\"list-group-item warning\">Warning</li>",
+            "</ul>"
+        ],
+        "description": "List with warning style"
+    },"list-danger Structure": {
+        "prefix": "list-danger",
+        "body": [
+            "<ul class=\"list-group\">",
             "    <li class=\"list-group-item danger\">Danger</li>",
+            "</ul>"
+        ],
+        "description": "List with danger style"
+    },"list-notice Structure": {
+        "prefix": "list-notice",
+        "body": [
+            "<ul class=\"list-group\">",
             "    <li class=\"list-group-item notice\">Notice</li>",
             "</ul>"
         ],
-        "description": "List with various alert styles"
+        "description": "List with notice style"
     },"logo-bar Structure": {
         "prefix": "logo-bar",
         "body": [
