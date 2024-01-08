@@ -1,0 +1,2166 @@
+{
+    "zenCSS z-container, z-row, and z-col Structure": {
+        "prefix": "container>z-row>z-col",
+        "body": [
+            "<z-container>",
+            "    <z-row>",
+            "        <z-col>$0</z-col>",
+            "    </z-row>",
+            "</z-container>"
+        ],
+        "description": "zenCSS container, row, and col structure"
+    },
+    "zenCSS z-row and z-col Structure": {
+        "prefix": "row>z-col",
+        "body": [
+            "<z-row>",
+            "    <z-col>$0</z-col>",
+            "</z-row>"
+        ],
+        "description": "zenCSS row and col structure"
+    },
+    "zenCSS z-col Structure": {
+        "prefix": "col",
+        "body": [
+            "<z-col>$0</z-col>"
+        ],
+        "description": "zenCSS col structure"
+    },
+    "zenCSS header-1 Structure": {
+        "prefix": "header-1",
+        "body": [
+            "<header class=\"header-sticky\">",
+            "    <div class=\"pl-2\" id=\"header-logo\">",
+            "        <a href=\"../index.html\"><img src=\"../../dist/img/logo.png\" alt=\"brand logo\"></a>",
+            "    </div>",
+            "    <div>",
+            "        <a id=\"hamburger-button-2\"><img src=\"../../dist/img/icons/bars.svg\" class=\"icon-header up-3\" alt=\"Menu\"></a>",
+            "    </div>",
+            "    <nav class=\"top-nav\">", 
+            "        <button id=\"close-button\" aria-label=\"Close\"><a class=\"close\"></a></button>",
+            "        <ul>",
+            "            <li><a href=\"#\" class=\"nav-link\">Home</a></li>",
+            "            <li><a href=\"#\" class=\"nav-link\">Services</a></li>",
+            "            <li><a href=\"#\" class=\"nav-link\">Contact</a></li>",
+            "        </ul>",
+            "    </nav>",
+            "</header>"
+        ],
+        "description": "zenCSS header-1 structure"
+    },
+    "zenCSS header-2 Structure": {
+        "prefix": "header-2",
+        "body": [
+            "<header class=\"header-sticky\">",
+            "    <div class=\"pl-2\" id=\"header-logo\">",
+            "        <img src=\"../../dist/img/logo.png\" alt=\"zenCSS logo\" />",
+            "    </div>",
+            "    <div id=\"nav-placeholder\"></div>",
+            "</header>"
+        ],
+        "description": "zenCSS header-2 structure"
+    }, "zenCSS hero-fullscreen Structure": {
+        "prefix": "hero-fullscreen",
+        "body": [
+            "<z-container-fluid class=\"theme-cta card hero-section m-0 mb-5\">",
+            "  <z-container>",
+            "    <img src=\"../../docs/images/website/gradient.jpg\" class=\"bg-img\" alt=\"\" /> <!-- optional-->",
+            "    <z-row>",
+            "      <z-col class=\"card center\">",
+            "        <span class=\"label center-me\">new</span>",
+            "        <h2 class=\"h1 headline\">Full Width + Background image</h2>",
+            "        <p class=\"lead\">Eos tenetur corrupti, minima doloribus quam eveniet libero.</p>",
+            "        <p>",
+            "          <a href=\"\" class=\"btn btn-md center-me\">Lorem Ipsum</a>",
+            "        </p>",
+            "      </z-col>",
+            "    </z-row>",
+            "  </z-container>",
+            "</z-container-fluid>"
+        ],
+        "description": "zenCSS hero-fullscreen structure"
+    },
+    "zenCSS hero standard width Structure": {
+        "prefix": "hero-standard",
+        "body": [
+            "<z-container class=\"center-flex\">",
+            "  <z-row>",
+            "    <z-col class=\"theme-cta hero-section card center\">",
+            "      <img src=\"../../docs/images/website/gradient.jpg\" class=\"bg-img\" alt=\"\" /> <!-- optional-->",
+            "      <span class=\"label center-me\">new</span>",
+            "      <h2 class=\"h1 headline\">Standard Width Version</h2>",
+            "      <p class=\"lead\">Eos tenetur corrupti, minima doloribus quam eveniet libero.</p>",
+            "      <p>",
+            "        <button>Get Started</button>",
+            "      </p>",
+            "    </z-col>",
+            "  </z-row>",
+            "</z-container>"
+        ],
+        "description": "zenCSS hero standard width structure"
+    },"zenCSS image-text-1 Structure": {
+        "prefix": "image-text-1",
+        "body": [
+            "<z-container>",
+            "  <z-row class=\"gap-0\">",
+            "    <z-col class=\"card p-0 w-full m-0 mh-400\">",
+            "      <img src=\"../../docs/images/misc/slider/5.jpg\" alt=\"\" class=\"flex-grow-1 square overflow-hidden bg-img\">",
+            "    </z-col>",
+            "    <z-container class=\"mobile:two-up gap-0\">",
+            "      <z-row class=\"mt-0 mb-0 pb-0 pt-0 h-250\">",
+            "        <z-col class=\"card bg-cta\">",
+            "          <div class=\"center-vertical \">",
+            "            <h2 class=\"h5\">An amazing headline</h2>",
+            "            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>",
+            "          </div>",
+            "        </z-col>",
+            "      </z-row>",
+            "      <z-row class=\"mt-0 mb-0 pb-0 pt-0\">",
+            "        <z-col class=\"card bg-primary\">",
+            "          <div class=\"center-vertical \">",
+            "            <h2 class=\"h5\">Another headline</h2>",
+            "            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem odio rerum.</p>",
+            "          </div>",
+            "        </z-col>",
+            "      </z-row>",
+            "    </z-container>",
+            "  </z-row>",
+            "</z-container>"
+        ],
+        "description": "zenCSS image-text-1 structure"
+    }, "zenCSS image-text-2 Structure": {
+        "prefix": "image-text-2",
+        "body": [
+            "<z-container>",
+            "  <z-row>",
+            "    <z-col class=\"card p-0 w-full m-0 mh-400\">",
+            "      <img src=\"../../docs/images/misc/slider/2.jpg\" alt=\"\" class=\"flex-grow-1 br-xxl overflow-hidden bg-img\">",
+            "    </z-col>",
+            "    <z-container class=\"mobile:two-up gap-4\">",
+            "      <z-row class=\"mt-0 mb-0 pb-0 pt-0\">",
+            "        <z-col class=\"card theme-light br-xxl\">",
+            "          <i class=\"zenicon-build-circle text-lg\"></i>",
+            "          <div class=\"card-bottom\">",
+            "            <p>Bento box layouts are all the rage right now, so why not lead with one of our own?</p>",
+            "          </div>",
+            "        </z-col>",
+            "      </z-row>",
+            "      <z-row class=\"mt-0 mb-0 pb-0 pt-0\">",
+            "        <z-col class=\"card theme-light br-xxl\">",
+            "          <i class=\"zenicon-verified text-lg\"></i>",
+            "          <div class=\"card-bottom\">",
+            "            <p>The main cell features a hero image, while the sidebar allows for two supporting columns, stacked.</p>",
+            "          </div>",
+            "        </z-col>",
+            "      </z-row>",
+            "    </z-container>",
+            "  </z-row>",
+            "</z-container>"
+        ],
+        "description": "zenCSS image-text-2 structure"
+    },
+    "zenCSS image-text-3 Structure": {
+        "prefix": "image-text-3",
+        "body": [
+            "<z-container>",
+            "  <z-row class=\"gap-0\">",
+            "    <z-col class=\"card theme-light square br-left narrow-lg h-300 justify-content-center align-items-center\">",
+            "      <h2 class=\"headline\">Text/Image Block</h2>",
+            "      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>",
+            "    </z-col>",
+            "    <z-col class=\"card theme-light square h-300\">",
+            "      <img src=\"../images/misc/slider/3.jpg\" class=\"bg-img square br-right\" alt=\"\">",
+            "    </z-col>",
+            "  </z-row>",
+            "</z-container>"
+        ],
+        "description": "zenCSS image-text-3 structure"
+    },
+    "zenCSS image-text-4 Structure": {
+        "prefix": "image-text-4",
+        "body": [
+            "<z-container class=\"page-section\">",
+            "  <z-row>",
+            "    <z-col>",
+            "      <img src=\"../../dist/img/placeholder/fernando-jorge.jpg\" alt=\"\">",
+            "    </z-col>",
+            "    <z-col class=\"flex\">",
+            "      <div class=\"center-vertical\">",
+            "        <h2 class=\"h3 headline\">Text With a 16/9 Image</h2>",
+            "        <p>Eos tenetur corrupti, minima doloribus quam eveniet libero.</p>",
+            "      </div>",
+            "    </z-col>",
+            "  </z-row>",
+            "</z-container>"
+        ],
+        "description": "zenCSS image-text-4 structure"
+    },
+    "zenCSS image-text-5 Structure": {
+        "prefix": "image-text-5",
+        "body": [
+            "<z-container class=\"page-section\">",
+            "  <z-row class=\"theme-light p-0 gap-0\">",
+            "    <z-col class=\"flex\">",
+            "      <div class=\"center-vertical narrow-left-sm\">",
+            "        <h2 class=\"h3 headline\">Image/Text in a Themed Card</h2>",
+            "        <p>Eos tenetur corrupti, minima doloribus quam eveniet libero.</p>",
+            "      </div>",
+            "    </z-col>",
+            "    <z-col>",
+            "      <img src=\"../../docs/images/misc/slider/1.jpg\" alt=\"\">",
+            "    </z-col>",
+            "  </z-row>",
+            "</z-container>"
+        ],
+        "description": "zenCSS image-text-5 structure"
+    },
+    "zenCSS image-text-6 Structure": {
+        "prefix": "image-text-6",
+        "body": [
+            "<z-container class=\"page-section\">",
+            "  <z-row class=\"p-0 border-3 square\">",
+            "    <z-col class=\"p-0 d-flex\">",
+            "      <img src=\"../../docs/images/misc/1024-square.jpg\" class=\"mobile:thin square\" alt=\"\">",
+            "    </z-col>",
+            "    <z-col class=\"flex\">",
+            "      <div class=\"center-vertical narrow-sm\">",
+            "        <h2 class=\"h3 headline\">Split Image/Text with a Border</h2>",
+            "        <p>Image reformats to 16/9 aspect ratio when transitioning to mobile.</p>",
+            "      </div>",
+            "    </z-col>",
+            "  </z-row>",
+            "</z-container>"
+        ],
+        "description": "zenCSS image-text-6 structure"
+    },
+    "zenCSS image-text-7 Structure": {
+        "prefix": "image-text-7",
+        "body": [
+            "<z-container class=\"page-section\">",
+            "  <z-row class=\"p-0 mobile:reverse\">",
+            "    <z-col class=\"flex\">",
+            "      <div class=\"center-vertical narrow-sm\">",
+            "        <h2 class=\"h3 headline\">Text With a Square Image</h2>",
+            "        <p>Image reformats to 16/9 aspect ratio when transitioning to mobile.</p>",
+            "      </div>",
+            "    </z-col>",
+            "    <z-col class=\"p-0\">",
+            "      <img src=\"../../docs/images/misc/1024-square-2.jpg\" class=\"mobile:thin\" alt=\"\">",
+            "    </z-col>",
+            "  </z-row>",
+            "</z-container>"
+        ],
+        "description": "zenCSS image-text-7 structure"
+    },"zenCSS text-content-row-1 Structure": {
+        "prefix": "text-content-row-1",
+        "body": [
+            "<z-container>",
+            "  <z-row>",
+            "    <z-col>",
+            "      <div class=\"center\">",
+            "        <span class=\"label\">TESTIMONIALS</span>",
+            "        <h2 class=\"headline\">See What Our Customers Are Saying!</h2>",
+            "      </div>",
+            "    </z-col>",
+            "  </z-row>",
+            "  <z-row>",
+            "    <z-col class=\"card theme-light center\">",
+            "      <img src=\"your-image.jpg\" alt=\"\" class=\"w-75 center-me img-round\">",
+            "      <star-component stars=\"5\"></star-component>",
+            "      <p>Lorem ipsum... </p>",
+            "      <small class=\"signature smaller\">-Jane Doe</small>",
+            "    </z-col>",
+            "    <z-col class=\"card theme-light center\">",
+            "      <img src=\"your-image.jpg\" alt=\"\" class=\"w-75 center-me img-round\">",
+            "      <star-component stars=\"5\"></star-component>",
+            "      <p>Lorem ipsum... </p>",
+            "      <small class=\"signature smaller\">-Bill Franklin</small>",
+            "    </z-col>",
+            "    <z-col class=\"card theme-light center\">",
+            "      <img src=\"your-image.jpg\" alt=\"\" class=\"w-75 center-me img-round\">",
+            "      <star-component stars=\"4\" half=\"true\"></star-component>",
+            "      <p>Lorem ipsum... </p>",
+            "      <small class=\"signature smaller\">-Jim Jones</small>",
+            "    </z-col>",
+            "  </z-row>",
+            "</z-container>"
+        ],
+        "description": "zenCSS text-content-row-1 structure"
+    },
+    "zenCSS text-content-row-2 Structure": {
+        "prefix": "text-content-row-2",
+        "body": [
+            "<z-container>",
+            "  <z-row>",
+            "    <z-col>",
+            "      <div class=\"center\">",
+            "        <span class=\"label bg-cta-dark\">WHY CHOOSE US</span>",
+            "        <h2 class=\"headline\">What Can You Expect From Our Company?</h2>",
+            "      </div>",
+            "    </z-col>",
+            "  </z-row>",
+            "  <z-row class=\"five-up text-small\">",
+            "    <z-col class=\"card center\">",
+            "      <img src=\"your-image.jpg\">",
+            "      <h3>Experience</h3>",
+            "      <p>Lorem ipsum dolor...</p>",
+            "    </z-col>",
+            "    <z-col class=\"card center\">",
+            "      <img src=\"your-image.jpg\">",
+            "      <h3>Trust</h3>",
+            "      <p>Lorem ipsum dolor...</p>",
+            "    </z-col>",
+            "    <z-col class=\"card center\">",
+            "      <img src=\"your-image.jpg\">",
+            "      <h3>Expertise</h3>",
+            "      <p>Lorem ipsum dolor...</p>",
+            "    </z-col>",
+            "    <z-col class=\"card center\">",
+            "      <img src=\"your-image.jpg\">",
+            "      <h3>Protection</h3>",
+            "      <p>Lorem ipsum dolor...</p>",
+            "    </z-col>",
+            "    <z-col class=\"card center\">",
+            "      <img src=\"your-image.jpg\">",
+            "      <h3>Responsibility</h3>",
+            "      <p>Lorem ipsum dolor...</p>",
+            "    </z-col>",
+            "  </z-row>",
+            "</z-container>"
+        ],
+        "description": "zenCSS text-content-row-2 structure"
+    }, "zenCSS layout-grid-1 Structure": {
+        "prefix": "layout-grid-1",
+        "body": [
+            "<z-container>",
+            "    <z-row class=\"mobile:gap-0\">",
+            "      <z-container>",
+            "        <z-row class=\"mobile:h-300\">",
+            "          <z-col class=\"overlay-container overflow-hidden card-hover br-sm card\">",
+            "            <img src=\"/dist/img/placeholder/SimonBerger.png\" class=\"bg-img\" alt=\"\">",
+            "            <div class=\"overlay-text\">",
+            "              <p class=\"headline\">Photo:</p>",
+            "              <p>Simon Berger</p>",
+            "            </div>",
+            "          </z-col>",
+            "        </z-row>",
+            "        <z-row class=\"mobile:h-600\">",
+            "          <z-col class=\"overlay-container overflow-hidden card-hover br-sm card\">",
+            "            <img src=\"/dist/img/placeholder/16x9/AliKazal.jpg\" class=\"bg-img\" alt=\"\">",
+            "            <div class=\"overlay-text\">",
+            "              <p class=\"headline\">Photo:</p>",
+            "              <p>Ali Kazal</p>",
+            "            </div>",
+            "          </z-col>",
+            "          <z-col class=\"overlay-container overflow-hidden card-hover br-sm card\">",
+            "            <img src=\"/dist/img/placeholder/16x9/MaevaVigier.jpg\" class=\"bg-img\" alt=\"\">",
+            "            <div class=\"overlay-text\">",
+            "              <p class=\"headline\">Photo:</p>",
+            "              <p>Maeva Vigier</p>",
+            "            </div>",
+            "          </z-col>",
+            "        </z-row>",
+            "        <z-row class=\"mobile:h-300\">",
+            "          <z-col class=\"overlay-container overflow-hidden card-hover br-sm card\">",
+            "            <img src=\"/dist/img/placeholder/16x9/tonyhughes.jpg\" class=\"bg-img\" alt=\"\">",
+            "            <div class=\"overlay-text\">",
+            "              <p class=\"headline\">Photo:</p>",
+            "              <p>Tony Hughes</p>",
+            "            </div>",
+            "          </z-col>",
+            "        </z-row>",
+            "      </z-container>",
+            "      <z-container>",
+            "        <z-row>",
+            "          <z-col class=\"overlay-container overflow-hidden card-hover br-sm card h-305\">",
+            "            <img src=\"/dist/img/placeholder/16x9/masahiro-miyagi.jpg\" class=\"bg-img\" alt=\"\">",
+            "            <div class=\"overlay-text\">",
+            "              <p class=\"headline\">Photo:</p>",
+            "              <p>Masahiro Miyagi</p>",
+            "            </div>",
+            "          </z-col>",
+            "        </z-row>",
+            "        <z-row class=\"mobile:h-300\">",
+            "          <z-col class=\"overlay-container overflow-hidden card-hover br-sm card h-145\">",
+            "            <img src=\"/dist/img/placeholder/16x9/douglas-bagg.jpg\" class=\"bg-img\" alt=\"\">",
+            "            <div class=\"overlay-text\">",
+            "              <p class=\"headline\">Photo:</p>",
+            "              <p>Douglas Bagg</p>",
+            "            </div>",
+            "          </z-col>",
+            "        </z-row>",
+            "      </z-container>",
+            "      <z-container>",
+            "        <z-row class=\"mobile:h-300\">",
+            "          <z-col class=\"overlay-container overflow-hidden card-hover br-sm card h-200\">",
+            "            <img src=\"/dist/img/placeholder/16x9/daniel-schwartz.jpg\" class=\"bg-img\" alt=\"\">",
+            "            <div class=\"overlay-text\">",
+            "              <p class=\"headline\">Photo:</p>",
+            "              <p>Daniel Schwartz</p>",
+            "            </div>",
+            "          </z-col>",
+            "        </z-row>",
+            "        <z-row>",
+            "          <z-col class=\"overlay-container overflow-hidden card-hover br-sm card h-250\">",
+            "            <img src=\"/dist/img/placeholder/16x9/lerone-pieters.jpg\" class=\"bg-img\" alt=\"\">",
+            "            <div class=\"overlay-text\">",
+            "              <p class=\"headline\">Photo:</p>",
+            "              <p>Lerone Pieters</p>",
+            "            </div>",
+            "          </z-col>",
+            "        </z-row>",
+            "      </z-container>",
+            "    </z-row>",
+            "    <z-row class=\"mobile:h-1200 pt-0\">",
+            "      <z-col class=\"overlay-container overflow-hidden card-hover br-sm card h-200\">",
+            "        <img src=\"/dist/img/placeholder/16x9/KamilWroblewski.jpg\" class=\"bg-img\" alt=\"\">",
+            "        <div class=\"overlay-text\">",
+            "          <p class=\"headline\">Photo:</p>",
+            "          <p>Kamil Wroblewski</p>",
+            "        </div>",
+            "      </z-col>",
+            "      <z-col class=\"overlay-container overflow-hidden card-hover br-sm card h-200\">",
+            "        <img src=\"/dist/img/placeholder/16x9/nathan-cima.jpg\" class=\"bg-img\" alt=\"\">",
+            "        <div class=\"overlay-text\">",
+            "          <p class=\"headline\">Photo:</p>",
+            "          <p>Nathan Cima</p>",
+            "        </div>",
+            "      </z-col>",
+            "      <z-col class=\"overlay-container overflow-hidden card-hover br-sm card h-200\">",
+            "        <img src=\"/dist/img/placeholder/16x9/bailey-burton.jpg\" class=\"bg-img\" alt=\"\">",
+            "        <div class=\"overlay-text\">",
+            "          <p class=\"headline\">Photo:</p>",
+            "          <p>Bailey Burton</p>",
+            "        </div>",
+            "      </z-col>",
+            "      <z-col class=\"overlay-container overflow-hidden card-hover br-sm card h-200\">",
+            "        <img src=\"/dist/img/placeholder/16x9/haotain-zheng.jpg\" class=\"bg-img\" alt=\"\">",
+            "        <div class=\"overlay-text\">",
+            "          <p class=\"headline\">Photo:</p>",
+            "          <p>Haotain Zheng</p>",
+            "        </div>",
+            "      </z-col>",
+            "    </z-row>",
+            "</z-container>"
+        ],
+        "description": "zenCSS layout-grid-1 structure"
+    },    "zenCSS layout-grid-2 Structure": {
+        "prefix": "layout-grid-2",
+        "body": [
+            "<z-container>",
+            "    <z-row>",
+            "        <z-col class=\"theme-light h-300\">hero col</z-col>",
+            "    </z-row>",
+            "    <z-row>",
+            "        <z-col class=\"theme-light\">1</z-col>",
+            "        <z-col class=\"theme-light\">2</z-col>",
+            "        <z-col class=\"theme-light\">3</z-col>",
+            "        <z-col class=\"theme-light\">4</z-col>",
+            "    </z-row>",
+            "</z-container>"
+        ],
+        "description": "zenCSS layout-grid-2 structure"
+    },
+    "zenCSS layout-grid-3 Structure": {
+        "prefix": "layout-grid-3",
+        "body": [
+            "<z-container>",
+            "    <z-row>",
+            "        <z-col class=\"theme-light\">",
+            "            <p>large content area</p>",
+            "        </z-col>",
+            "        <z-container>",
+            "            <z-row class=\"pt-0\">",
+            "                <z-col class=\"theme-light\">1</z-col>",
+            "                <z-col class=\"theme-light\">2</z-col>",
+            "            </z-row>",
+            "            <z-row>",
+            "                <z-col class=\"theme-light\">long col</z-col>",
+            "            </z-row>",
+            "            <z-row>",
+            "                <z-col class=\"theme-light\">long col</z-col>",
+            "            </z-row>",
+            "            <z-row class=\"pb-0\">",
+            "                <z-col class=\"theme-light\">long col</z-col>",
+            "            </z-row>",
+            "        </z-container>",
+            "    </z-row>",
+            "</z-container>"
+        ],
+        "description": "zenCSS layout-grid-3 structure"
+    },
+    "zenCSS layout-grid-4 Structure": {
+        "prefix": "layout-grid-4",
+        "body": [
+            "<z-container>",
+            "    <z-row>",
+            "        <z-container>",
+            "            <z-row class=\"pt-0\">",
+            "                <z-col class=\"theme-light h-225\">hero col</z-col>",
+            "            </z-row>",
+            "            <z-row class=\"pb-0\">",
+            "                <z-col class=\"theme-light\">1</z-col>",
+            "                <z-col class=\"theme-light\">2</z-col>",
+            "                <z-col class=\"theme-light\">3</z-col>",
+            "            </z-row>",
+            "        </z-container>",
+            "        <z-col class=\"theme-light\">",
+            "            <p>large content area</p>",
+            "        </z-col>",
+            "    </z-row>",
+            "</z-container>"
+        ],
+        "description": "zenCSS layout-grid-4 structure"
+    },
+    "zenCSS layout-grid-5 Structure": {
+        "prefix": "layout-grid-5",
+        "body": [
+            "<z-container>",
+            "  <z-row>",
+            "    <z-col class=\"theme-light\">",
+            "      <p>large content area</p>",
+            "    </z-col>",
+            "    <z-container class=\"mobile:two-up gap-4\">",
+            "      <z-row class=\"mt-0 mb-0 pb-0 pt-0\">",
+            "        <z-col class=\"card theme-light h-200\">",
+            "          <div class=\"flex-bottom\">",
+            "            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est assumenda sit vero.</p>",
+            "          </div>",
+            "        </z-col>",
+            "      </z-row>",
+            "      <z-row class=\"mt-0 mb-0 pb-0 pt-0\">",
+            "        <z-col class=\"card theme-light h-200\">",
+            "          <div class=\"flex-bottom\">",
+            "            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est assumenda sit vero.</p>",
+            "          </div>",
+            "        </z-col>",
+            "      </z-row>",
+            "    </z-container>",
+            "  </z-row>",
+            "</z-container>"
+        ],
+        "description": "zenCSS layout-grid-5 structure"
+    },
+    "zenCSS layout-grid-6 Structure": {
+        "prefix": "layout-grid-6",
+        "body": [
+            "<z-container>",
+            "    <z-row class=\"mobile:gap-0\">",
+            "      <z-container>",
+            "        <z-row>",
+            "          <z-col class=\"theme-light\">1</z-col>",
+            "        </z-row>",
+            "        <z-row>",
+            "          <z-col class=\"theme-light\">1</z-col>",
+            "          <z-col class=\"theme-light\">2</z-col>",
+            "        </z-row>",
+            "        <z-row>",
+            "          <z-col class=\"theme-light\">1</z-col>",
+            "        </z-row>",
+            "      </z-container>",
+            "      <z-container>",
+            "        <z-row>",
+            "          <z-col class=\"theme-light h-305\">1</z-col>",
+            "        </z-row>",
+            "        <z-row>",
+            "          <z-col class=\"theme-light h-145\">2</z-col>",
+            "        </z-row>",
+            "      </z-container>",
+            "      <z-container>",
+            "        <z-row>",
+            "          <z-col class=\"theme-light h-150\">1</z-col>",
+            "        </z-row>",
+            "        <z-row>",
+            "          <z-col class=\"theme-light h-300\">2</z-col>",
+            "        </z-row>",
+            "      </z-container>",
+            "    </z-row>",
+            "</z-container>"
+        ],
+        "description": "zenCSS layout-grid-6 structure"
+    },"zenCSS product-grid-1 Structure": {
+        "prefix": "product-grid-1",
+        "body": [
+            "<z-container>",
+            "  <z-row>",
+            "    <z-col class=\"m-0 p-0 d-flex align-items-stretch\">",
+            "      <img src=\"../../docs/images/misc/lifestyle-product/3.jpg\" alt=\"\">",
+            "    </z-col>",
+            "    <z-container>",
+            "      <z-row class=\"p-0 mobile:two-up\">",
+            "        <z-col class=\"m-0 p-0 d-flex align-items-stretch\">",
+            "          <img src=\"../../docs/images/misc/lifestyle-product/1.jpg\" alt=\"\">",
+            "        </z-col>",
+            "        <z-col class=\"m-0 p-0 d-flex align-items-stretch\">",
+            "          <img src=\"../../docs/images/misc/lifestyle-product/2.jpg\" alt=\"\">",
+            "        </z-col>",
+            "      </z-row>",
+            "      <z-row class=\"mt-2 mb-2\">",
+            "        <z-col class=\"bg-grey-6-dark m-0 br-sm\">",
+            "          <span class=\"text-medium\">",
+            "            <i class=\"zenicon-local-offer down-1\"></i> NEW ARRIVALS:",
+            "          </span>",
+            "          Shop the sale <i class=\"zenicon-east down-2\"></i>",
+            "        </z-col>",
+            "      </z-row>",
+            "      <z-row class=\"p-0 m-0\">",
+            "        <z-col class=\"m-0 p-0 d-flex align-items-stretch\">",
+            "          <img src=\"../../docs/images/misc/lifestyle-product/4.jpg\" alt=\"\">",
+            "        </z-col>",
+            "      </z-row>",
+            "    </z-container>",
+            "  </z-row>",
+            "</z-container>"
+        ],
+        "description": "zenCSS product-grid-1 structure"
+    },
+    "zenCSS product-grid-2 Structure": {
+        "prefix": "product-grid-2",
+        "body": [
+            "<z-container class=\"page-section\">",
+            "    <z-row>",
+            "      <z-col>",
+            "        <div class=\"card\">",
+            "          <span class=\"eyebrow up-1 text-cta-dual\">BACK IN STOCK</span>",
+            "          <h2 class=\"h3 headline\">Text + Product Row</h2>",
+            "          <p>Images switch to a grid when transitioning to mobile.</p>",
+            "        </div>",
+            "      </z-col>",
+            "    </z-row>",
+            "    <z-row class=\"p-0\">",
+            "      <z-col class=\"p-0\">",
+            "        <z-container>",
+            "          <z-row class=\"mobile:two-up gap-0\">",
+            "            <z-col class=\"p-2\">",
+            "              <img src=\"image-1.jpg\" alt=\"\">",
+            "              <div class=\"card p-0 m-0\">",
+            "                <p class=\"headline mt-4\">Aatque  <span class=\"bolder text-cta-dual\">$27</span></p>",
+            "                <small>Lorem ipsum dolor...</small>",
+            "              </div>",
+            "            </z-col>",
+            "            <z-col class=\"p-2\">",
+            "              <img src=\"image-2.jpg\" alt=\"\">",
+            "              <div class=\"card p-0 m-0\">",
+            "                <p class=\"headline mt-4\">Blanditis  <span class=\"bolder text-cta-dual\">$47</span></p>",
+            "                <small>Lorem ipsum dolor...</small>",
+            "              </div>",
+            "            </z-col>",
+            "            <z-col class=\"p-2\">",
+            "              <img src=\"image-3.jpg\" alt=\"\">",
+            "              <div class=\"card p-0 m-0\">",
+            "                <p class=\"headline mt-4\">Adelorem  <span class=\"bolder text-cta-dual\">$67</span></p>",
+            "                <small>Lorem ipsum dolor...</small>",
+            "              </div>",
+            "            </z-col>",
+            "            <z-col class=\"p-2\">",
+            "              <img src=\"image-4.jpg\" alt=\"\">",
+            "              <div class=\"card p-0 m-0\">",
+            "                <p class=\"headline mt-4\">Aatque blanditiis  <span class=\"bolder text-cta-dual\">$97</span></p>",
+            "                <small>Lorem ipsum dolor...</small>",
+            "              </div>",
+            "            </z-col>",
+            "          </z-row>",
+            "        </z-container>",
+            "      </z-col>",
+            "    </z-row>",
+            "  </z-container>"
+        ],
+        "description": "zenCSS product-grid-2 structure"
+    }, "zenCSS faq Structure": {
+        "prefix": "faq",
+        "body": [
+            "<z-container>",
+            "  <z-row>",
+            "    <z-col class=\"center narrow-xl\">",
+            "      <span class=\"label\">Frequently Asked Questions</span>",
+            "      <h2>Everything you need to know</h2>",
+            "      <z-container class=\"text-left\">",
+            "        <z-row>",
+            "          <z-col class=\"p-0\">",
+            "            <div class=\"accordion\">",
+            "              <ul class=\"list-group list-group-flush\">",
+            "                <li class=\"list-group-item p-0\">",
+            "                  <a class=\"title accordion-toggle naked text-semibold\" aria-expanded=\"false\" aria-controls=\"content6\"><i class=\"zenicon-keyboard-arrow-right down-3\"></i>How many CSS programmers does it take to change a lightbulb?</a>",
+            "                  <div id=\"content6\" class=\"expanded-content naked\" aria-hidden=\"true\">",
+            "                    <p class=\"pb-5 up-2\">None, just add some \"brightness\" to the background color! 💀</p>",
+            "                  </div>",
+            "                </li>",
+            "                <li class=\"list-group-item p-0\">",
+            "                  <a class=\"title accordion-toggle naked text-semibold\" aria-expanded=\"false\" aria-controls=\"content4\"><i class=\"zenicon-keyboard-arrow-right down-3\"></i>What do you call a group of CSS developers in a room?</a>",
+            "                  <div id=\"content4\" class=\"expanded-content naked\" aria-hidden=\"true\">",
+            "                    <p class=\"pb-5 up-2\">A \"div\"erse assembly of \"selectors\"! 🤣</p>",
+            "                  </div>",
+            "                </li>",
+            "                <li class=\"list-group-item p-0\">",
+            "                  <a class=\"title accordion-toggle naked text-semibold\" aria-expanded=\"false\" aria-controls=\"content5\"><i class=\"zenicon-keyboard-arrow-right down-3\"></i>Can CSS magically make my website compatible with older browsers?</a>",
+            "                  <div id=\"content5\" class=\"expanded-content naked\" aria-hidden=\"true\">",
+            "                    <p class=\"pb-5 up-2\">CSS can help, but it won't turn an ancient browser into a modern one. Some things are best left to archaeologists. 🦕</p>",
+            "                  </div>",
+            "                </li>",
+            "              </ul>",
+            "            </div>",
+            "          </z-col>",
+            "        </z-row>",
+            "      </z-container>",
+            "    </z-col>",
+            "  </z-row>",
+            "</z-container>"
+        ],
+        "description": "zenCSS faq structure"
+    }, "zenCSS text-carousel-1 Structure": {
+        "prefix": "text-carousel-1",
+        "body": [
+            "<z-container>",
+            "  <z-row>",
+            "    <z-col class=\"card theme-dark center justify-content-center\">",
+            "      <p class=\"text-xxl headline\">319</p>",
+            "      <p>Happy customers and counting</p>",
+            "    </z-col>",
+            "    <z-col class=\"theme-light h-300 card\">",
+            "      <div class=\"slider flex-grow-1\" data-auto-rotate=\"true\">",
+            "        <div class=\"slides-container\">",
+            "          <div class=\"slide\">",
+            "            <div class=\"card center\">",
+            "              <img src=\".image-1.jpg\" class=\"w-75 center-me img-round\" alt=\"\">",
+            "              <star-component stars=\"5\"></star-component>",
+            "              <p>Testimonial text here.</p>",
+            "              <small class=\"signature smaller\">Signature here</small>",
+            "            </div>",
+            "          </div>",
+            "          <div class=\"slide\">",
+            "            <div class=\"card center\">",
+            "              <img src=\".image-2.jpg\" class=\"w-75 center-me img-round\" alt=\"\">",
+            "              <star-component stars=\"5\"></star-component>",
+            "              <p>Another testimonial text here.</p>",
+            "              <small class=\"signature smaller\">Another signature here</small>",
+            "            </div>",
+            "          </div>",
+            "          <!-- Additional slides here -->",
+            "        </div>",
+            "        <div class=\"prev arrow bottom right theme-dark\"><i class=\"zenicon-arrow-back-ios up-1 right-7\"></i></div>",
+            "        <div class=\"next arrow bottom theme-dark\"><i class=\"zenicon-arrow-forward-ios up-1 right-9\"></i></div>",
+            "      </div>",
+            "    </z-col>",
+            "  </z-row>",
+            "</z-container>"
+        ],
+        "description": "zenCSS text-carousel-1 structure"
+    },
+    "zenCSS text-carousel-2 Structure": {
+        "prefix": "text-carousel-2",
+        "body": [
+            "<z-container>",
+            "  <z-row>",
+            "    <z-col class=\"d-flex flex-direction-column justify-content-center theme-dark center\">",
+            "      <img src=\"../../docs/images/white-tree.png\" class=\"w-50 center-me pb-3 pt-3\" alt=\"\">",
+            "      <p>Photo Montage</p>",
+            "    </z-col>",
+            "    <z-col class=\"p-0 feature-md\">",
+            "      <div class=\"slider\" data-auto-rotate=\"true\">",
+            "        <div class=\"slides-container\">",
+            "          <div class=\"slide\"><img src=\"../../docs/images/misc/slider/1.jpg\" alt=\"Slide 1\"></div>",
+            "          <div class=\"slide\"><img src=\"../../docs/images/misc/slider/2.jpg\" alt=\"Slide 2\"></div>",
+            "          <div class=\"slide\"><img src=\"../../docs/images/misc/slider/3.jpg\" alt=\"Slide 3\"></div>",
+            "          <div class=\"slide\"><img src=\"../../docs/images/misc/slider/4.jpg\" alt=\"Slide 4\"></div>",
+            "          <!-- Additional slides here -->",
+            "        </div>",
+            "        <div class=\"prev arrow theme-dark\"><i class=\"zenicon-arrow-back-ios up-1 left-1\"></i></div>",
+            "        <div class=\"next arrow theme-dark\"><i class=\"zenicon-arrow-forward-ios up-1 right-1\"></i></div>",
+            "      </div>",
+            "    </z-col>",
+            "  </z-row>",
+            "</z-container>"
+        ],
+        "description": "zenCSS text-carousel-2 structure"
+    }, "zenCSS accordion-content Structure": {
+        "prefix": "accordion-content",
+        "body": [
+            "<z-container class=\"wizard theme-light\">",
+            "    <z-row class=\"pt-0 pb-0 mobile:reverse\">",
+            "      <z-col class=\"feature pt-0\">",
+            "        <div class=\"wizard-step card bg-grey-2 h-300\" id=\"step-1\">",
+            "          Section 1 Content",
+            "        </div>",
+            "        <div class=\"wizard-step card bg-grey-3 h-300\" id=\"step-2\">",
+            "          Section 2 Content",
+            "        </div>",
+            "        <div class=\"wizard-step card bg-grey-4 h-300\" id=\"step-3\">",
+            "          Section 3 Content",
+            "        </div>",
+            "      </z-col>",
+            "      <z-col class=\"pb-0\">",
+            "        <div class=\"accordion\">",
+            "          <a href=\"\" class=\"title accordion-toggle naked text-semibold wizard-nav\" aria-expanded=\"true\" aria-controls=\"content1\" data-step=\"1\">",
+            "            <i class=\"zenicon-keyboard-arrow-down down-1\"></i>Section 1 Title</a>",
+            "          <div id=\"content1\" class=\"expanded-content naked show\" aria-hidden=\"false\">",
+            "            <p>This is a description of the section 1 content.</p>",
+            "          </div>",
+            "          <a class=\"title accordion-toggle naked text-semibold wizard-nav\" aria-expanded=\"false\" aria-controls=\"content2\" data-step=\"2\">",
+            "            <i class=\"zenicon-keyboard-arrow-right down-1\"></i>Section 2 Title</a>",
+            "          <div id=\"content2\" class=\"expanded-content naked\" aria-hidden=\"true\">",
+            "            <p>This is a description of the section 2 content.</p>",
+            "          </div>",
+            "          <a class=\"title accordion-toggle naked text-semibold wizard-nav\" aria-expanded=\"false\" aria-controls=\"content3\" data-step=\"3\">",
+            "            <i class=\"zenicon-keyboard-arrow-right down-1\"></i>Section 3 Title</a>",
+            "          <div id=\"content3\" class=\"expanded-content naked\" aria-hidden=\"true\">",
+            "            <p>This is a description of the section 3 content.</p>",
+            "          </div>",
+            "        </div>",
+            "      </z-col>",
+            "    </z-row>",
+            "  </z-container>"
+        ],
+        "description": "zenCSS accordion-content structure"
+    },"zenCSS text-optin-form Structure": {
+        "prefix": "text-optin-form",
+        "body": [
+            "<z-container>",
+            "  <z-row>",
+            "    <z-col class=\"card center-vertical\">",
+            "      <span class=\"label bg-cta\"> NEW</span>",
+            "      <h2 class=\"h4\"> Lorem ipsum dolor sit amet, consectetur adipiscing.</h2>",
+            "      <p>Eos tenetur corrupti, minima doloribus quam eveniet libero.</p>",
+            "    </z-col>",
+            "    <z-col class=\"card form-container theme-primary optin\">",
+            "      <h3>Contact Form</h3>",
+            "      <p>An amazing tagline goes here</p>",
+            "      <form>",
+            "        <div>",
+            "          <input type=\"text\" id=\"name\" placeholder=\" \">",
+            "          <label for=\"name\" class=\"text-grey-4\">Name</label>",
+            "        </div>",
+            "        <div>",
+            "          <input type=\"email\" id=\"email\" placeholder=\" \">",
+            "          <label for=\"email\" class=\"text-grey-4\">Email</label>",
+            "        </div>",
+            "        <div>",
+            "          <input type=\"tel\" id=\"tel\" placeholder=\" \">",
+            "          <label for=\"tel\" class=\"text-grey-4\">Phone Number</label>",
+            "        </div>",
+            "        <button name=\"submit\" type=\"submit\" class=\"mt-0 mb-0\">Submit</button>",
+            "      </form>",
+            "    </z-col>",
+            "  </z-row>",
+            "</z-container>"
+        ],
+        "description": "zenCSS text-optin-form structure"
+    },"zenCSS footer-1 Structure": {
+        "prefix": "footer-1",
+        "body": [
+            "<footer class=\"z-container square\">",
+            "    <z-row class=\"mobile:two-up\">",
+            "      <z-col class=\"text-left\">",
+            "        <img src=\"../../dist/img/logo.png\" class=\"w-140\" alt=\"zenCSS logo\" />",
+            "        <p class=\"text-xs text-grey-2 ml-1\">© <span id=\"current-year\"></span>, your company here</p>",
+            "        <img src=\"../../docs/images/general-icons/social-icons/facebook.png\" class=\"w-20 m-1\" alt=\"Facebook\" />",
+            "        <img src=\"../../docs/images/general-icons/social-icons/x-twitter.png\" class=\"w-20 m-1\" alt=\"Twitter\" />",
+            "        <img src=\"../../docs/images/general-icons/social-icons/instagram.png\" class=\"w-20 m-1\" alt=\"Instagram\" />",
+            "      </z-col>",
+            "      <z-col class=\"text-left squeeze\">",
+            "        <p class=\"eyebrow\">PAGES</p>",
+            "        <p><a href=\"\" class=\"link-reverse text-sm\">Red Widgets</a></p>",
+            "        <p><a href=\"\" class=\"link-reverse text-sm\">Green Widgets</a></p>",
+            "        <p><a href=\"\" class=\"link-reverse text-sm\">Blue Widgets</a></p>",
+            "      </z-col>",
+            "      <z-col class=\"text-left squeeze\">",
+            "        <p class=\"eyebrow\">LINKS</p>",
+            "        <p><a href=\"\" class=\"link-reverse text-sm\">Orange Widgets</a></p>",
+            "        <p><a href=\"\" class=\"link-reverse text-sm\">Yellow Widgets</a></p>",
+            "        <p><a href=\"\" class=\"link-reverse text-sm\">Purple Widgets</a></p>",
+            "      </z-col>",
+            "      <z-col class=\"text-left squeeze\">",
+            "        <p class=\"eyebrow\">SUMMARY</p>",
+            "        <p class=\"text-xs\">Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Minus dolor qui architecto, optio eos, molestias.</p>",
+            "        <p><a id=\"toggleButton\" class=\"text-grey-2 text-xs link-reverse\">Toggle Zen Test</a></p>",
+            "      </z-col>",
+            "    </z-row>",
+            "  </footer>"
+        ],
+        "description": "zenCSS footer-1 structure"
+    },
+    "zenCSS footer-2 Structure": {
+        "prefix": "footer-2",
+        "body": [
+            "<footer>",
+            "    <div class=\"social-icons pb-1\">",
+            "        <a href=\"#\">",
+            "            <img src=\"facebook.png\" alt=\"Facebook\">",
+            "        </a>",
+            "        <a href=\"#\">",
+            "            <img src=\"x-twitter.png\" alt=\"Twitter\">",
+            "        </a>",
+            "        <a href=\"#\">",
+            "            <img src=\"linkedin.png\" alt=\"LinkedIn\">",
+            "        </a>",
+            "        <a href=\"#\">",
+            "            <img src=\"youtube.png\" alt=\"YouTube\">",
+            "        </a>",
+            "        <a href=\"#\">",
+            "            <img src=\"discord.png\" alt=\"Discord\">",
+            "        </a>",
+            "        <a href=\"#\">",
+            "            <img src=\"instagram.png\" alt=\"Instagram\">",
+            "        </a>",
+            "        <a href=\"#\">",
+            "            <img src=\"tiktok.png\" alt=\"TikTok\">",
+            "        </a>",
+            "    </div>",
+            "    <div>",
+            "      <small class=\"smallest\">&copy; <span id=\"current-year\"></span>,",
+            "       your company here - <a id=\"toggleButton\">Toggle zen test</a></small>",
+            "    </div>",
+            "</footer>"
+        ],
+        "description": "zenCSS footer-2 structure"
+    } ,"zenCSS accordion-1 Structure": {
+        "prefix": "accordion-1",
+        "body": [
+            "<div class=\"accordion theme-light\">",
+            "    <a href=\"\" class=\"title accordion-toggle\" aria-expanded=\"false\" aria-controls=\"content1\">",
+            "    <i class=\"zenicon-keyboard-arrow-right\"></i> The title</a>",
+            "    <div id=\"content1\" class=\"expanded-content\" aria-hidden=\"true\">",
+            "        <p>Expanded content here...</p>",
+            "    </div>",
+            "    <a class=\"title accordion-toggle\" aria-expanded=\"false\" aria-controls=\"content2\">",
+            "    <i class=\"zenicon-keyboard-arrow-right\"></i> The title 2</a>",
+            "    <div id=\"content2\" class=\"expanded-content\" aria-hidden=\"true\">",
+            "        <p>Expanded content here...</p>",
+            "    </div>",
+            "</div>"
+        ],
+        "description": "zenCSS accordion-1 structure"
+    },
+    "zenCSS accordion-2 Structure": {
+        "prefix": "accordion-2",
+        "body": [
+            "<div class=\"accordion theme-light\">",
+            "    <a href=\"\" class=\"title accordion-toggle naked text-semibold\" aria-expanded=\"false\" aria-controls=\"content1\">",
+            "    <i class=\"zenicon-keyboard-arrow-right\"></i> The title</a>",
+            "    <div id=\"content1\" class=\"expanded-content naked\" aria-hidden=\"true\">",
+            "        <p>Expanded content here...</p>",
+            "    </div>",
+            "    <a class=\"title accordion-toggle naked text-semibold\" aria-expanded=\"false\" aria-controls=\"content2\">",
+            "    <i class=\"zenicon-keyboard-arrow-right\"></i> The title 2</a>",
+            "    <div id=\"content2\" class=\"expanded-content naked\" aria-hidden=\"true\">",
+            "        <p>Expanded content here...</p>",
+            "    </div>",
+            "</div>"
+        ],
+        "description": "zenCSS accordion-2 structure"
+    },
+    "zenCSS accordion-3 Structure": {
+        "prefix": "accordion-3",
+        "body": [
+            "<div class=\"accordion theme-light\">",
+            "    <a href=\"\" class=\"title accordion-toggle naked text-semibold\" aria-expanded=\"false\" aria-controls=\"content1\">",
+            "    <i class=\"zenicon-keyboard-arrow-right\"></i> The title</a>",
+            "    <div id=\"content1\" class=\"expanded-content naked static\" aria-hidden=\"true\">",
+            "        <p>Expanded content here...</p>",
+            "    </div>",
+            "    <a class=\"title accordion-toggle naked text-semibold\" aria-expanded=\"false\" aria-controls=\"content2\">",
+            "    <i class=\"zenicon-keyboard-arrow-right\"></i> The title 2</a>",
+            "    <div id=\"content2\" class=\"expanded-content naked static\" aria-hidden=\"true\">",
+            "        <p>Expanded content here...</p>",
+            "    </div>",
+            "</div>"
+        ],
+        "description": "zenCSS accordion-3 structure"
+    },"zenCSS alert-primary Structure": {
+        "prefix": "alert-primary",
+        "body": [
+            "<div class=\"alert-primary\" role=\"alert\">",
+            "    <a class=\"close position-corner\"></a>",
+            "    primary alert—use alert-primary class",
+            "</div>"
+        ],
+        "description": "zenCSS primary alert structure"
+    },
+    "zenCSS alert-primary-minimal Structure": {
+        "prefix": "alert-primary-minimal",
+        "body": [
+            "<div class=\"alert-primary-minimal\" role=\"alert\">",
+            "    primary alert",
+            "</div>"
+        ],
+        "description": "zenCSS primary minimal alert structure"
+    },
+    "zenCSS alert-success Structure": {
+        "prefix": "alert-success",
+        "body": [
+            "<div class=\"alert-success\" role=\"alert\">",
+            "    success alert",
+            "</div>"
+        ],
+        "description": "zenCSS success alert structure"
+    },
+    "zenCSS alert-success-minimal Structure": {
+        "prefix": "alert-success-minimal",
+        "body": [
+            "<div class=\"alert-success-minimal\" role=\"alert\">",
+            "    success alert",
+            "</div>"
+        ],
+        "description": "zenCSS success minimal alert structure"
+    },
+    "zenCSS alert-danger Structure": {
+        "prefix": "alert-danger",
+        "body": [
+            "<div class=\"alert-danger\" role=\"alert\">",
+            "    danger alert",
+            "</div>"
+        ],
+        "description": "zenCSS danger alert structure"
+    },
+    "zenCSS alert-danger-minimal Structure": {
+        "prefix": "alert-danger-minimal",
+        "body": [
+            "<div class=\"alert-danger-minimal\" role=\"alert\">",
+            "    danger alert",
+            "</div>"
+        ],
+        "description": "zenCSS danger minimal alert structure"
+    },
+    "zenCSS alert-warning Structure": {
+        "prefix": "alert-warning",
+        "body": [
+            "<div class=\"alert-warning\" role=\"alert\">",
+            "    warning alert",
+            "</div>"
+        ],
+        "description": "zenCSS warning alert structure"
+    },
+    "zenCSS alert-warning-minimal Structure": {
+        "prefix": "alert-warning-minimal",
+        "body": [
+            "<div class=\"alert-warning-minimal\" role=\"alert\">",
+            "    warning alert",
+            "</div>"
+        ],
+        "description": "zenCSS warning minimal alert structure"
+    },
+    "zenCSS alert-dark Structure": {
+        "prefix": "alert-dark",
+        "body": [
+            "<div class=\"alert-dark\" role=\"alert\">",
+            "    dark alert",
+            "</div>"
+        ],
+        "description": "zenCSS dark alert structure"
+    },
+    "zenCSS alert-dark-minimal Structure": {
+        "prefix": "alert-dark-minimal",
+        "body": [
+            "<div class=\"alert-dark-minimal\" role=\"alert\">",
+            "    dark alert",
+            "</div>"
+        ],
+        "description": "zenCSS dark minimal alert structure"
+    },
+    "zenCSS alert-light Structure": {
+        "prefix": "alert-light",
+        "body": [
+            "<div class=\"alert-light\" role=\"alert\">",
+            "    light alert",
+            "</div>"
+        ],
+        "description": "zenCSS light alert structure"
+    },
+    "zenCSS alert-light-minimal Structure": {
+        "prefix": "alert-light-minimal",
+        "body": [
+            "<div class=\"alert-light-minimal\" role=\"alert\">",
+            "    light alert",
+            "</div>"
+        ],
+        "description": "zenCSS light minimal alert structure"
+    }, "zenCSS success Structure": {
+        "prefix": "success",
+        "body": [
+            "<div class=\"success\">",
+            "    Success",
+            "</div>"
+        ],
+        "description": "zenCSS success alert structure"
+    },
+    "zenCSS warning Structure": {
+        "prefix": "warning",
+        "body": [
+            "<div class=\"warning\">",
+            "    Warning",
+            "</div>"
+        ],
+        "description": "zenCSS warning alert structure"
+    },
+    "zenCSS danger Structure": {
+        "prefix": "danger",
+        "body": [
+            "<div class=\"danger\">",
+            "    Danger",
+            "</div>"
+        ],
+        "description": "zenCSS danger alert structure"
+    },
+    "zenCSS notice Structure": {
+        "prefix": "notice",
+        "body": [
+            "<div class=\"notice\">",
+            "    Notice",
+            "</div>"
+        ],
+        "description": "zenCSS notice alert structure"
+    },"btn-primary Structure": {
+        "prefix": "btn-primary",
+        "body": "<button class=\"btn-primary\">Primary</button>",
+        "description": "Button with primary style"
+    },
+    "btn-secondary Structure": {
+        "prefix": "btn-secondary",
+        "body": "<button class=\"btn-secondary\">Secondary</button>",
+        "description": "Button with secondary style"
+    },
+    "btn-cta Structure": {
+        "prefix": "btn-cta",
+        "body": "<button class=\"btn-cta\">CTA</button>",
+        "description": "Button with CTA style"
+    },
+    "btn-accent Structure": {
+        "prefix": "btn-accent",
+        "body": "<button class=\"btn-accent\">Accent</button>",
+        "description": "Button with accent style"
+    },
+    "btn-dark Structure": {
+        "prefix": "btn-dark",
+        "body": "<button class=\"btn-dark\">Dark</button>",
+        "description": "Button with dark style"
+    },
+    "btn-light Structure": {
+        "prefix": "btn-light",
+        "body": "<button class=\"btn-light\">Light</button>",
+        "description": "Button with light style"
+    },
+    "btn-default Structure": {
+        "prefix": "btn-default",
+        "body": "<button>Default</button>",
+        "description": "Default button style"
+    },
+    "btn-primary-outline Structure": {
+        "prefix": "btn-primary-outline",
+        "body": "<button class=\"btn-primary-outline\">Primary</button>",
+        "description": "Primary button with outline"
+    },
+    "btn-secondary-outline Structure": {
+        "prefix": "btn-secondary-outline",
+        "body": "<button class=\"btn-secondary-outline\">Secondary</button>",
+        "description": "Secondary button with outline"
+    },
+    "btn-cta-outline Structure": {
+        "prefix": "btn-cta-outline",
+        "body": "<button class=\"btn-cta-outline\">CTA</button>",
+        "description": "CTA button with outline"
+    },
+    "btn-accent-outline Structure": {
+        "prefix": "btn-accent-outline",
+        "body": "<button class=\"btn-accent-outline\">Accent</button>",
+        "description": "Accent button with outline"
+    },
+    "btn-dark-outline Structure": {
+        "prefix": "btn-dark-outline",
+        "body": "<button class=\"btn-dark-outline\">Dark</button>",
+        "description": "Dark button with outline"
+    },
+    "btn-light-outline Structure": {
+        "prefix": "btn-light-outline",
+        "body": "<button class=\"btn-light-outline\">Light</button>",
+        "description": "Light button with outline"
+    },
+    "link-primary Structure": {
+        "prefix": "link-primary",
+        "body": "<a class=\"btn btn-primary\">Primary</a>\n<a class=\"btn btn-primary-outline\">Primary</a>",
+        "description": "Link styled as primary button"
+    },
+    "link-secondary Structure": {
+        "prefix": "link-secondary",
+        "body": "<a class=\"btn btn-secondary\">Secondary</a>\n<a class=\"btn btn-secondary-outline\">Secondary</a>",
+        "description": "Link styled as secondary button"
+    },
+    "link-cta Structure": {
+        "prefix": "link-cta",
+        "body": "<a class=\"btn btn-cta\">CTA</a>\n<a class=\"btn btn-cta-outline\">CTA</a>",
+        "description": "Link styled as CTA button"
+    },
+    "link-accent Structure": {
+        "prefix": "link-accent",
+        "body": "<a class=\"btn btn-accent\">Accent</a>\n<a class=\"btn btn-accent-outline\">Accent</a>",
+        "description": "Link styled as accent button"
+    },
+    "link-dark Structure": {
+        "prefix": "link-dark",
+        "body": "<a class=\"btn btn-dark\">Dark</a>\n<a class=\"btn btn-dark-outline\">Dark</a>",
+        "description": "Link styled as dark button"
+    },
+    "link-light Structure": {
+        "prefix": "link-light",
+        "body": "<a class=\"btn btn-light\">Light</a>\n<a class=\"btn btn-light-outline\">Light</a>",
+        "description": "Link styled as light button"
+    },
+    "btn-sm Structure": {
+        "prefix": "btn-sm",
+        "body": "<button class=\"btn-sm\">btn-sm</button>",
+        "description": "Small button style"
+    },
+    "btn-md Structure": {
+        "prefix": "btn-md",
+        "body": "<button class=\"btn-md\">btn-md</button>",
+        "description": "Medium button style"
+    },
+    "btn-lg Structure": {
+        "prefix": "btn-lg",
+        "body": "<button class=\"btn-lg\">btn-lg</button>",
+        "description": "Large button style"
+    },
+    "btn-xl Structure": {
+        "prefix": "btn-xl",
+        "body": "<button class=\"btn-xl\">btn-xl</button>",
+        "description": "Extra large button style"
+    },"breadcrumbs Structure": {
+        "prefix": "breadcrumbs",
+        "body": [
+            "<ul class=\"breadcrumb\">",
+            "    <li><a href=\"#\">Home</a></li>",
+            "    <li><a href=\"#\">Docs</a></li>",
+            "    <li><a href=\"#\">Examples</a></li>",
+            "    <li>Breadcrumb</li>",
+            "</ul>"
+        ],
+        "description": "Breadcrumb navigation structure"
+    },"card-full-bleed Structure": {
+        "prefix": "card-full-bleed",
+        "body": [
+            "<z-col class=\"card p-0 theme-light\">",
+            "  <img src=\"your-image.jpg\" class=\"square\" alt=\"\">",
+            "  <h4 class=\"h6 headline pt-2 pl-3 pr-3\">A beautiful card for your website</h4>",
+            "  <p class=\"p-3 pt-0\">Lorem ipsum dolor...",
+            "  </p>",
+            "</z-col>"
+        ],
+        "description": "Card with full-bleed image"
+    },
+    
+    "card-left-img Structure": {
+        "prefix": "card-left-img",
+        "body": [
+            "<z-container class=\"single page-section\">",
+            "  <z-row class=\"card theme-light p-0\">",
+            "    <z-col class=\"p-0 m-0 d-flex align-items-center\">",
+            "      <img src=\"your-image.jpg\" class=\"w-100\" alt=\"\">",
+            "      <div class=\"ml-3 p-2\">",
+            "        <p class=\"text-bold headline\">A beautiful card...</p>",
+            "        <p class=\"text-sm\">Lorem ipsum dolor ...</p>",
+            "      </div>",
+            "    </z-col>",
+            "  </z-row>",
+            "</z-container>"
+        ],
+        "description": "Card with left-aligned image"
+    },
+    
+    "card-full-img Structure": {
+        "prefix": "card-full-img",
+        "body": [
+            "<z-col class=\"card theme-dark gap-3 h-300 overflow-hidden\">",
+            "    <div class=\"overlay\"></div>", 
+            "    <img src=\"image.jpg\" class=\"bg-img\"  alt=\"\">",
+            "    <span class=\"eyebrow\">NATURE</span>",
+            "    <h4 class=\"headline text-balance\">Best places to visit this summer</h4>",
+            "    <a href=\"\" class=\"btn btn-light w-150 card-bottom\">Learn More</a>",
+            "</z-col>"
+        ],
+        "description": "Card with full-cover image"
+    },
+    
+    "card-hover-pan Structure": {
+        "prefix": "card-hover-pan",
+        "body": [
+            "<z-container>",
+            "  <z-row>",
+            "    <a href=\"\"><z-col class=\"card theme-dark gap-3 h-300 overflow-hidden card-hover\">",
+            "      <div class=\"overlay\"></div>",
+            "      <img src=\"../../dist/img/placeholder/16x9/neom.jpg\" class=\"bg-img\" alt=\"\">",
+            "      <span class=\"eyebrow text-yellow-light\">NATURE</span>",
+            "      <h4 class=\"headline text-balance\">Best places to visit this summer</h4>",
+            "      <button class=\"btn-light w-150 card-bottom\">Learn More</button>",
+            "    </z-col></a>",
+            "  </z-row>",
+            "</z-container>"
+        ],
+        "description": "Card with hover and pan effect"
+    },
+    
+    "card-img Structure": {
+        "prefix": "card-img",
+        "body": [
+            "<z-container>",
+            "  <z-row>",
+            "    <a href=\"\"><z-col class=\"card theme-dark gap-3 h-300 overflow-hidden card-hover\">",
+            "      <div class=\"overlay\"></div>",
+            "      <img src=\"../../dist/img/placeholder/16x9/neom.jpg\" class=\"bg-img\" alt=\"\">",
+            "      <span class=\"eyebrow text-yellow-light\">NATURE</span>",
+            "      <h4 class=\"headline text-balance\">Best places to visit this summer</h4>",
+            "      <button class=\"btn-light w-150 card-bottom\">Learn More</button>",
+            "    </z-col></a>",
+            "  </z-row>",
+            "</z-container>"
+        ],
+        "description": "Card with image background"
+    },
+    
+    "card-text-wrap Structure": {
+        "prefix": "card-text-wrap",
+        "body": [
+            "<z-col class=\"card theme-light\">",
+            "  <div>",
+            "    <img src=\"your-image.jpg\" class=\"img-left w-75 h-75 img-round\" alt=\"\">",
+            "    <h4 class=\"headline mb-1\">A title...</h4>",
+            "    <p>Lorem ipsum dolor sit amet... </p>",
+            "  </div>",
+            "</z-col>"
+        ],
+        "description": "Card with text wrapping around image"
+    },
+    
+    "card-icon Structure": {
+        "prefix": "card-icon",
+        "body": [
+            "<z-container>",
+            "  <z-row>",
+            "    <z-col class=\"card theme-light center\">",
+            "      <div class=\"center-me icon-circle bg-grey-1-dark mt-1 mb-1\"><i class=\"zenicon-ind-in-page text-lg\"></i>",
+            "      </div>",
+            "      <h4 class=\"headline\">A title goes here</h4>",
+            "      <p>Fugit ratione natus...</p>",
+            "    </z-col>",
+            "  </z-row>",
+            "</z-container>"
+        ],
+        "description": "Card with icon"
+    },"cookie-consent Structure": {
+        "prefix": "cookie-consent",
+        "body": [
+            "<div class=\"cookie-consent-banner\">",
+            "    <p> Our website uses cookies to ... Learn more in our",
+            "      <a href=\"#\">Privacy & Cookie Policy</a>",
+            "    </p>",
+            "    <button class=\"accept-cookies btn-md\">Accept</button>",
+            "</div>"
+        ],
+        "description": "Cookie consent banner"
+    },"corner-popup Structure": {
+        "prefix": "corner-popup",
+        "body": [
+            "<div class=\"corner-popup\">",
+            "    <button class=\"btn-circle\" data-unread=\"1\" data-animate=\"true\"><i class=\"zenicon-local-offer text-lg\"></i></button>",
+            "    <div class=\"hidden\">",
+            "        <h5>Pop Up Sale</h5>",
+            "        <p>Lorem ipsum, dolor sit amet consetur adipisicing elit. Incidunt consectetur.</p>",
+            "    </div>",
+            "</div>"
+        ],
+        "description": "Corner popup UI component"
+    },"exit-popup Structure": {
+        "prefix": "exit-popup",
+        "body": [
+            "<div class=\"exit\">",
+            "    <div class=\"modal-content center\">",
+            "        <a class=\"close\"></a>",
+            "        <img src=\"16x9.jpg\" alt=\"\">",
+            "        <h3>But wait, there's more..</h3>",
+            "        <p> <span class=\"bold\"> 20% off:</span> Your amazing offer goes here and looks like this. </p>",
+            "        <button>Click here</button>",
+            "    </div>",
+            "</div>"
+        ],
+        "description": "Exit popup UI component"
+    },"sign-up-form Structure": {
+        "prefix": "sign-up-form",
+        "body": [
+            "<div class=\"card form-container theme-light\">",
+            "  <h5 class=\"headline center\">Sign Up for Updates</h5>",
+            "  <p class=\"center\">An amazing tagline goes here</p>",
+            "  <form>",
+            "    <div>",
+            "      <input type=\"text\" id=\"name1\" placeholder=\" \">",
+            "      <label for=\"name1\">Name</label>",
+            "    </div>",
+            "    <div>",
+            "      <input type=\"email\" id=\"email1\" placeholder=\" \">",
+            "      <label for=\"email1\">Email</label>",
+            "    </div>",
+            "    <div class=\"mb-3\">",
+            "      <input type=\"tel\" id=\"tel1\" placeholder=\" \">",
+            "      <label for=\"tel1\">Your Phone Number</label>",
+            "    </div>",
+            "    <button name=\"submit\" type=\"submit\">Sign Up</button>",
+            "    <small class=\"form-footer mb-0\"><a href=\"#\">Privacy Policy</a> and <a href=\"#\">Terms of Service</a></small>",
+            "  </form>",
+            "</div>"
+        ],
+        "description": "Sign-up form UI component"
+    },"sign-in-form Structure": {
+        "prefix": "sign-in-form",
+        "body": [
+            "<div class=\"card form-container theme-light\">",
+            "    <h5 class=\"h6 headline pb-0\">Sign Into Your Account</h5>",
+            "    <form>",
+            "      <div>",
+            "        <input type=\"email\" id=\"email\" placeholder=\" \">",
+            "        <label for=\"email\">Email Address</label>",
+            "      </div>",
+            "      <div class=\"mb-3\">",
+            "        <input type=\"password\" id=\"pass\" placeholder=\" \">",
+            "        <label for=\"pass\">Password</label>",
+            "      </div>",
+            "      <button name=\"submit\" type=\"submit\">Sign In</button>",
+            "      <small class=\"form-footer mb-0\"><a href=\"#\">Forgot Password?</a></small>",
+            "    </form>",
+            "  </div>",
+            "  <small class=\"text-center d-block down-10\">Not a member? <span class=\"text-cta text-semibold\">Start a 14 day free trial</span></small>"
+        ],
+        "description": "Sign-in form UI component"
+    },"table-1 Structure": {
+        "prefix": "table-1",
+        "body": [
+            "<table class=\"responsive-table striped\">",
+            "     <thead>",
+            "         <tr>",
+            "         <th>Header 1</th>",
+            "         <th>Header 2</th>",
+            "         <th>Header 3</th>",
+            "         </tr>",
+            "     </thead>",
+            "     <tbody>",
+            "         <tr>",
+            "         <td>Data 1</td>",
+            "         <td>Data 2</td>",
+            "         <td>Data 3</td>",
+            "         </tr>",
+            "     ...",
+            "     </tbody>",
+            " </table>"
+        ],
+        "description": "Responsive table with striped style"
+    },
+    "table-2 Structure": {
+        "prefix": "table-2",
+        "body": [
+            "<table class=\"responsive-table zebra\">",
+            "     <thead>",
+            "         <tr>",
+            "         <th>Header 1</th>",
+            "         <th>Header 2</th>",
+            "         <th>Header 3</th>",
+            "         </tr>",
+            "     </thead>",
+            "     <tbody>",
+            "         <tr>",
+            "         <td>Data 1</td>",
+            "         <td>Data 2</td>",
+            "         <td>Data 3</td>",
+            "         </tr>",
+            "     ...",
+            "     </tbody>",
+            " </table>"
+        ],
+        "description": "Responsive table with zebra style"
+    },
+    "table-3 Structure": {
+        "prefix": "table-3",
+        "body": [
+            "<table class=\"responsive-table striped zebra\">",
+            "     <thead>",
+            "         <tr>",
+            "         <th>Header 1</th>",
+            "         <th>Header 2</th>",
+            "         <th>Header 3</th>",
+            "         </tr>",
+            "     </thead>",
+            "     <tbody>",
+            "         <tr>",
+            "         <td>Data 1</td>",
+            "         <td>Data 2</td>",
+            "         <td>Data 3</td>",
+            "         </tr>",
+            "     ...",
+            "     </tbody>",
+            " </table>"
+        ],
+        "description": "Responsive table with combined striped and zebra style"
+    },
+    "table-4 Structure": {
+        "prefix": "table-4",
+        "body": [
+            "<table class=\"responsive-table\">",
+            " <thead>",
+            "     <tr>",
+            "     <th>Header 1</th>",
+            "     <th>Header 2</th>",
+            "     <th>Header 3</th>",
+            "     </tr>",
+            " </thead>",
+            " <tbody>",
+            "     <tr>",
+            "     <td>Data 1</td>",
+            "     <td>Data 2</td>",
+            "     <td>Data 3</td>",
+            "     </tr>",
+            " ...",
+            " </tbody>",
+            "</table>"
+        ],
+        "description": "Standard responsive table"
+    },"icon Structure": {
+        "prefix": "icon",
+        "body": "<i class=\"zenicon-control-point\"></i>",
+        "description": "Icon element"
+    },"image-carousel Structure": {
+        "prefix": "image-carousel",
+        "body": [
+            "<div class=\"slider\" data-auto-rotate=\"true\">",
+            "    <div class=\"slides-container\">",
+            "        <div class=\"slide\"><img src=\"your-image.jpg\"></div>",
+            "        <div class=\"slide\"><img src=\"your-image-2.jpg\"></div>",
+            "        <!-- Additional slides here -->",
+            "    </div>",
+            "    <div class=\"prev arrow theme-dark\"><i class=\"zenicon-arrow-back-ios up-1 left-1\"></i></div>",
+            "    <div class=\"next arrow theme-dark\"><i class=\"zenicon-arrow-forward-ios up-1 right-1\"></i></div>",
+            "</div>"
+        ],
+        "description": "Image carousel component"
+    },"image-gallery Structure": {
+        "prefix": "image-gallery",
+        "body": [
+            "<!-- Image Gallery -->",
+            "<div class=\"image-gallery\">",
+            "    <!-- Page 1 -->",
+            "    <img src=\"your-img.jpg\" alt=\"\" data-text=\"photo description here\">",
+            "    <img src=\"your-img-2.jpg\" alt=\"\" data-text=\"photo description here\">",
+            "    <!-- Additional images here -->",
+            "    <!-- Page 2 -->",
+            "    <img src=\"your-img.jpg\" alt=\"\" data-text=\"photo description here\">",
+            "    <img src=\"your-img-2.jpg\" alt=\"\" data-text=\"photo description here\">",
+            "    <!-- Additional images here -->",
+            "</div>",
+            "<!-- Pagination -->",
+            "<div class=\"pagination-nav\">",
+            "    <!-- Generated dynamically -->",
+            "</div>",
+            "<!-- Modal -->",
+            "<z-modal>",
+            "    <div class=\"modal-body\">",
+            "        <img src=\"\" id=\"modal-image\">",
+            "        <p id=\"modal-description\"><!-- Generated by your data-text --></p>",
+            "    </div>",
+            "    <button slot=\"footer\" class=\"modal-close\">Close</button>",
+            "</z-modal>"
+        ],
+        "description": "Image gallery with modal"
+    },"label-default Structure": {
+        "prefix": "label-default",
+        "body": "<span class=\"label\">Default</span>",
+        "description": "Default label"
+    },
+    "label-primary Structure": {
+        "prefix": "label-primary",
+        "body": "<span class=\"label bg-primary\">Primary</span>",
+        "description": "Primary label"
+    },
+    "label-secondary Structure": {
+        "prefix": "label-secondary",
+        "body": "<span class=\"label bg-secondary\">Secondary</span>",
+        "description": "Secondary label"
+    },
+    "label-cta Structure": {
+        "prefix": "label-cta",
+        "body": "<span class=\"label bg-cta\">CTA</span>",
+        "description": "CTA label"
+    },
+    "label-accent Structure": {
+        "prefix": "label-accent",
+        "body": "<span class=\"label bg-accent\">Accent</span>",
+        "description": "Accent label"
+    },
+    "label-dark Structure": {
+        "prefix": "label-dark",
+        "body": "<span class=\"label bg-dark\">Dark</span>",
+        "description": "Dark label"
+    },
+    "label-light Structure": {
+        "prefix": "label-light",
+        "body": "<span class=\"label bg-light\">Light</span>",
+        "description": "Light label"
+    },"link-default Structure": {
+        "prefix": "link-default",
+        "body": "<a>Default</a>",
+        "description": "Default link style"
+    },"link-reverse Structure": {
+        "prefix": "link-reverse",
+        "body": "<a class=\"link-reverse\">Reverse</a>",
+        "description": "Reverse link style"
+    },"link-classic Structure": {
+        "prefix": "link-classic",
+        "body": "<a class=\"link-classic\">Classic</a>",
+        "description": "Classic link style"
+    },"link-icon Structure": {
+        "prefix": "link-icon",
+        "body": "<a>With Icon <i class=\"zenicon-east\"></i></a>",
+        "description": "Link with an icon"
+    },"link-animated Structure": {
+        "prefix": "link-animated",
+        "body": "<a class=\"text-cta-dual link-underline\">Hover<i class=\"zenicon-east down-2\"></i></a>",
+        "description": "Animated link style"
+    },"link-animated-dark Structure": {
+        "prefix": "link-animated-dark",
+        "body": "<a class=\"text-cta-dual link-underline link-underline-white\">Hover<i class=\"zenicon-east down-2\"></i></a>",
+        "description": "Animated dark link style"
+    },"link-bottom Structure": {
+        "prefix": "link-bottom",
+        "body": [
+            "<div class=\"card-bottom\">",
+            "  <a class=\"text-cta-dual link-underline\">Click <i class=\"zenicon-east down-2\"></i></a>",
+            "</div>"
+        ],
+        "description": "Link at the bottom of a card"
+    },"list-border Structure": {
+        "prefix": "list-border",
+        "body": [
+            "<ul class=\"list-group\">",
+            "  <li class=\"list-group-item\">Lorem ipsum dolor</li>",
+            "  <li class=\"list-group-item\">Suscipit, eaque ab fugit</li>",
+            "  <li class=\"list-group-item\">Abore incidunt quam</li>",
+            "  <li class=\"list-group-item\">Totam nulla earum nobis sequi</li>",
+            "  <li class=\"list-group-item\">Nulla earum nobis tenetur</li>",
+            "</ul>"
+        ],
+        "description": "List with border style"
+    },
+    
+    "list-flush Structure": {
+        "prefix": "list-flush",
+        "body": [
+            "<ul class=\"list-group list-group-flush\">",
+            "  <li class=\"list-group-item\">Lorem ipsum dolor</li>",
+            "  <li class=\"list-group-item\">Suscipit, eaque ab fugit</li>",
+            "  <li class=\"list-group-item\">Abore incidunt quam</li>",
+            "</ul>"
+        ],
+        "description": "Flush list style"
+    },
+    
+    "list-active Structure": {
+        "prefix": "list-active",
+        "body": [
+            "<h3 class=\"pt-3\">Active Item</h3>",
+            "<ul class=\"list-group\">",
+            "  <li class=\"list-group-item active\">Lorem ipsum dolor</li>",
+            "  <li class=\"list-group-item\">Suscipit, eaque ab fugit</li>",
+            "  <li class=\"list-group-item\">Abore incidunt quam</li>",
+            "</ul>"
+        ],
+        "description": "List with active item"
+    },
+    
+    "list-disabled Structure": {
+        "prefix": "list-disabled",
+        "body": [
+            "<ul class=\"list-group\">",
+            "  <li class=\"list-group-item disabled\" aria-disabled=\"true\">Lorem ipsum dolor</li>",
+            "  <li class=\"list-group-item\">Suscipit, eaque ab fugit</li>",
+            "  <li class=\"list-group-item\">Abore incidunt quam</li>",
+            "</ul>"
+        ],
+        "description": "List with disabled item"
+    },
+    
+    "list-link Structure": {
+        "prefix": "list-link",
+        "body": [
+            "<div class=\"list-group\">",
+            "  <a href=\"#\" class=\"list-group-item list-group-item-action\">Lorem ipsum dolor</a>",
+            "  <a href=\"#\" class=\"list-group-item list-group-item-action\">Suscipit, eaque ab fugit</a>",
+            "  <a href=\"#\" class=\"list-group-item list-group-item-action\">Uam praesentium velit ad alias</a>",
+            "</div>"
+        ],
+        "description": "List styled as links"
+    },
+    
+    "list-horizontal Structure": {
+        "prefix": "list-horizontal",
+        "body": [
+            "<ul class=\"list-group list-group-horizontal\">",
+            "  <li class=\"list-group-item\">Lorem ipsum dolor</li>",
+            "  <li class=\"list-group-item\">Suscipit, eaque ab fugit</li>",
+            "  <li class=\"list-group-item\">Abore incidunt quam</li>",
+            "</ul>"
+        ],
+        "description": "Horizontal list style"
+    },
+    
+    "list-success-warning-etc Structure": {
+        "prefix": "list-success-warning-etc",
+        "body": [
+            "<ul class=\"list-group\">",
+            "    <li class=\"list-group-item success\">Success</li>",
+            "    <li class=\"list-group-item warning\">Warning</li>",
+            "    <li class=\"list-group-item danger\">Danger</li>",
+            "    <li class=\"list-group-item notice\">Notice</li>",
+            "</ul>"
+        ],
+        "description": "List with various alert styles"
+    },"logo-bar Structure": {
+        "prefix": "logo-bar",
+        "body": [
+            "<z-container class=\"bg-opaque\">",
+            "    <z-row class=\"six-up mobile:max-up\">",
+            "        <z-col>",
+            "            <img src=\"your-logo.svg\" class=\"flex-grow-1 w-125 h-50 center-me\" alt=\"\">",
+            "        </z-col>",
+            "        <z-col>",
+            "            <img src=\"your-logo.svg\" class=\"flex-grow-1 w-125 h-50 center-me\" alt=\"\">",
+            "        </z-col>",
+            "        <z-col>",
+            "            <img src=\"your-logo.svg\" class=\"flex-grow-1 w-125 h-50 center-me\" alt=\"\">",
+            "        </z-col>",
+            "        <!-- three more logos here -->",
+            "    </z-row>",
+            "</z-container>"
+        ],
+        "description": "Logo bar with multiple logos"
+    },"menu-expanded Structure": {
+        "prefix": "menu-expanded",
+        "body": [
+            "<nav class=\"nav-menu\">",
+            "    <ul>",
+            "        <li class=\"active\">",
+            "            <i class=\"icon text-sm zenicon-person up-2\"></i>",
+            "            <div class=\"menu-item pl-2\">",
+            "                <span class=\"main-text\">Account</span>",
+            "                <span class=\"sub-text\">Your personal profile and information</span>",
+            "            </div>",
+            "        </li>",
+            "        <!-- Additional menu items here -->",
+            "    </ul>",
+            "</nav>"
+        ],
+        "description": "Expanded menu with icons and descriptions"
+    },"menu-small Structure": {
+        "prefix": "menu-small",
+        "body": [
+            "<nav class=\"nav-menu\">",
+            "    <ul>",
+            "        <li><i class=\"icon zenicon-person up-2\"></i> Account</li>",
+            "        <!-- Additional menu items here -->",
+            "    </ul>",
+            "</nav>"
+        ],
+        "description": "Small menu with icons"
+    },"modal Structure": {
+        "prefix": "modal",
+        "body": [
+            "<z-modal>",
+            "  <h3 slot=\"title\">Title</h3> <!-- optional -->",
+            "  <p>Lorem ipsum dolor ... </p>",
+            "  <button slot=\"footer\" class=\"modal-close\">Close</button> <!-- optional -->",
+            "  <button slot=\"footer\" class=\"modal-save disabled\">Save</button> <!-- optional -->",
+            "</z-modal>"
+        ],
+        "description": "Modal component"
+    },"modal-button Structure": {
+        "prefix": "modal-button",
+        "body": "<button class=\"modal-open\">Open Modal</button>",
+        "description": "Button to open a modal"
+    },"pagination Structure": {
+        "prefix": "pagination",
+        "body": [
+            "<div class=\"pagination-nav center-flex\">",
+            "    <a class=\"item\">«</a>",
+            "    <a class=\"item\">1</a>",
+            "    <a class=\"item current\">2</a>",
+            "    <a class=\"item\">3</a>",
+            "    <a class=\"item\">»</a>",
+            "</div>"
+        ],
+        "description": "Standard pagination navigation"
+    },
+    
+    "pagination-tabbed Structure": {
+        "prefix": "pagination-tabbed",
+        "body": [
+            "<div class=\"pagination-nav center-flex\">",
+            "    <a class=\"item-minimal\">← Prev</a>",
+            "    <a class=\"item-minimal\">1</a>",
+            "    <a class=\"item-minimal current\">2</a>",
+            "    <a class=\"item-minimal\">3</a>",
+            "    <a class=\"item-minimal\">Next →</a>",
+            "</div>"
+        ],
+        "description": "Tabbed pagination navigation"
+    },
+    
+    "pagination-themed Structure": {
+        "prefix": "pagination-themed",
+        "body": [
+            "<div class=\"pagination-nav center-flex\">",
+            "    <a class=\"item bg-cta-hover\">«</a>",
+            "    <a class=\"item bg-cta-hover\">1</a>",
+            "    <a class=\"item bg-cta bg-cta-hover current\">2</a>",
+            "    <a class=\"item bg-cta-hover\">3</a>",
+            "    <a class=\"item bg-cta-hover\">»</a>",
+            "</div>",
+            "<div class=\"pagination-nav center-flex\">",
+            "    <a class=\"item-minimal bg-cta-hover\">← Prev</a>",
+            "    <a class=\"item-minimal bg-cta-hover\">1</a>",
+            "    <a class=\"item-minimal bg-cta bg-cta-hover current\">2</a>",
+            "    <a class=\"item-minimal bg-cta-hover\">3</a>",
+            "    <a class=\"item-minimal bg-cta-hover\">Next →</a>",
+            "</div>"
+        ],
+        "description": "Themed pagination navigation"
+    },"pricing-table-1 Structure": {
+        "prefix": "pricing-table-1",
+        "body": [
+            "<z-container>",
+            "  <z-row>",
+            "    <z-col class=\"card align-items-center gap-3 border-3 theme-light\">",
+            "      <p class=\"text-bold\">Bronze</p>",
+            "      <p>The essential items for your business.</p>",
+            "      <p><span class=\"h2 bold\"><span class=\"text-superscript\">$</span>27</span>/month</p>",
+            "      <p><span class=\"mr-1\"><i class=\"zenicon-check down-1 text-primary-dual\"></i> </span> 5 Widgets</p>",
+            "      <p><span class=\"mr-1\"><i class=\"zenicon-check down-1\"></i> </span> Up to 1,000 subscribers</p>",
+            "      <p><span class=\"mr-1\"><i class=\"zenicon-check down-1\"></i> </span> Basic support</p>",
+            "      <p><span class=\"mr-1\"><i class=\"zenicon-check down-1\"></i> </span> 72-hour response time</p>",
+            "      <p><a class=\"btn btn-sm w-125 btn-cta mt-1\">Get Bronze</a></p>",
+            "    </z-col>",
+            "    <z-col class=\"card align-items-center gap-3 theme-light border-3 shadow-5\">",
+            "      <span class=\"label position-top-center bg-cta\">Most Popular</span>",
+            "      <p class=\"text-bold\">Gold</p>",
+            "      <p>Priority support for your growing business.</p>",
+            "      <p><span class=\"h2 bold\"><span class=\"text-superscript\">$</span>47</span>/month</p>",
+            "      <p><span class=\"mr-1\"><i class=\"zenicon-check down-1\"></i> </span> 12 Widgets</p>",
+            "      <p><span class=\"mr-1\"><i class=\"zenicon-check down-1\"></i> </span> Up to 10,000 subscribers</p>",
+            "      <p><span class=\"mr-1\"><i class=\"zenicon-check down-1\"></i> </span> Premium support</p>",
+            "      <p><span class=\"mr-1\"><i class=\"zenicon-check down-1\"></i> </span> 48-hour response time</p>",
+            "      <p><a class=\"btn btn-sm w-125 btn-cta mt-1\">Get Gold</a></p>",
+            "    </z-col>",
+            "    <z-col class=\"card align-items-center gap-3 border-3 theme-light\">",
+            "      <p class=\"text-bold d-inline\">Enterprise</p>",
+            "      <p>Premium support for your growing business.</p>",
+            "      <p><span class=\"h2 bold\"><span class=\"text-superscript\">$</span>97</span>/month</p>",
+            "      <p><span class=\"mr-1\"><i class=\"zenicon-check down-1\"></i> </span> Unlimited Widgets</p>",
+            "      <p><span class=\"mr-1\"><i class=\"zenicon-check down-1\"></i> </span> Unlimited subscribers</p>",
+            "      <p><span class=\"mr-1\"><i class=\"zenicon-check down-1\"></i> </span> White-glove support</p>",
+            "      <p><span class=\"mr-1\"><i class=\"zenicon-check down-1\"></i> </span> 24-hour response time</p>",
+            "      <p><a class=\"btn btn-sm w-125 btn-cta mt-1\">Get Enterprise</a></p>",
+            "    </z-col>",
+            "  </z-row>",
+            "</z-container>"
+        ],
+        "description": "Pricing table with three tiers"
+    },"pricing-table-2 Structure": {
+        "prefix": "pricing-table-2",
+        "body": [
+            "<z-container>",
+            "  <z-row>",
+            "    <z-col class=\"card border-3 align-items-center\">",
+            "      <p class=\"bold\">Bronze</p>",
+            "      <p>The essential items for your business.</p>",
+            "      <p><span class=\"h2 bold\"><span class=\"text-superscript\">$</span>27</span>/month</p>",
+            "      <p class=\"ml-1\"><span class=\"mr-1\"><i class=\"zenicon-check-circle\"></i></span> 5 Widgets</p>",
+            "      <p class=\"ml-1\"><span class=\"mr-1\"><i class=\"zenicon-check-circle\"></i></span> Up to 1,000 subscribers</p>",
+            "      <p class=\"ml-1\"><span class=\"mr-1\"><i class=\"zenicon-check-circle\"></i></span> Basic support</p>",
+            "      <p class=\"ml-1\"><span class=\"mr-1\"><i class=\"zenicon-check-circle\"></i></span> 72-hour response time</p>",
+            "      <p><a href=\"\" class=\"btn btn-sm w-125 btn-cta mt-1\">Get Bronze</a></p>",
+            "    </z-col>",
+            "    <z-col class=\"card border-3 align-items-center shadow-2\">",
+            "      <p class=\"bold text-cta-dual\">Gold <span class=\"label bg-cta up-2 ml-1\">Most Popular</span></p>",
+            "      <p>Priority support for your growing business.</p>",
+            "      <p><span class=\"h2 bold\"><span class=\"text-superscript\">$</span>47</span>/month</p>",
+            "      <p class=\"ml-1\"><span class=\"mr-1\"><i class=\"zenicon-check-circle\"></i></span> 12 Widgets</p>",
+            "      <p class=\"ml-1\"><span class=\"mr-1\"><i class=\"zenicon-check-circle\"></i></span> Up to 10,000 subscribers</p>",
+            "      <p class=\"ml-1\"><span class=\"mr-1\"><i class=\"zenicon-check-circle\"></i></span> Premium support</p>",
+            "      <p class=\"ml-1\"><span class=\"mr-1\"><i class=\"zenicon-check-circle\"></i></span> 48-hour response time</p>",
+            "      <p><a href=\"\" class=\"btn btn-sm w-125 btn-cta mt-1\">Get Gold</a></p>",
+            "    </z-col>",
+            "    <z-col class=\"card border-3 align-items-center shadow-2\">",
+            "      <p class=\"bold\">Enterprise</p>",
+            "      <p>Premium support for your growing business.</p>",
+            "      <p><span class=\"h2 bold\"><span class=\"text-superscript\">$</span>97</span>/month</p>",
+            "      <p class=\"ml-1\"><span class=\"mr-1\"><i class=\"zenicon-check-circle\"></i></span> Unlimited Widgets</p>",
+            "      <p class=\"ml-1\"><span class=\"mr-1\"><i class=\"zenicon-check-circle\"></i></span> Unlimited subscribers</p>",
+            "      <p class=\"ml-1\"><span class=\"mr-1\"><i class=\"zenicon-check-circle\"></i></span> White-glove support</p>",
+            "      <p class=\"ml-1\"><span class=\"mr-1\"><i class=\"zenicon-check-circle\"></i></span> 24-hour response time</p>",
+            "      <p><a href=\"\" class=\"btn btn-sm w-125 btn-cta mt-1\">Get Enterprise</a></p>",
+            "    </z-col>",
+            "  </z-row>",
+            "</z-container>"
+        ],
+        "description": "Alternative design for a pricing table"
+    },"promo-bar Structure": {
+        "prefix": "promo-bar",
+        "body": [
+            "<div class=\"promo-banner theme-cta\">",
+            "  <i class=\"text-accent zenicon-verified mr-1\"></i> 101 Essential Icons for zenCSS.",
+            "  <p class=\"bold mb-2 ml-1 down-1\">",
+            "    <a href=\"/docs/examples/icons.html\" class=\"text-white down-2\">Get 'em free</a>",
+            "  </p>",
+            "</div>"
+        ],
+        "description": "Promotional banner"
+    },"quiz Structure": {
+        "prefix": "quiz",
+        "body": [
+            "<div class=\"wizard\">",
+            "    <!-- Step 1 -->",
+            "    <div class=\"wizard-step card active theme-cta\" id=\"step-1\">",
+            "        <p>Question 1: Your favorite type of music?</p>",
+            "        <div>",
+            "            <!-- Options for Question 1 -->",
+            "        </div>",
+            "    </div>",
+            "    <!-- Step 2 -->",
+            "    <!-- Additional Steps here -->",
+            "    <!-- Result Types -->",
+            "    <div id=\"result-types\">",
+            "        <div data-result=\"a\">Funny (change this to your content/image)</div>",
+            "        <!-- Additional result types here -->",
+            "    </div>",
+            "    <!-- Result display -->",
+            "    <div id=\"result\" class=\"wizard-step card theme-cta\">",
+            "        <p>Your personality type: <span id=\"result-text\"></span></p>",
+            "    </div>",
+            "</div>"
+        ],
+        "description": "Quiz steps with result types"
+    },"sidebar Structure": {
+        "prefix": "sidebar",
+        "body": [
+            "<aside>",
+            "    <div id=\"sidebar\" class=\"zen\">",
+            "        <nav role=\"navigation\">",
+            "            <!-- Sidebar navigation links -->",
+            "        </nav>",
+            "        <div id=\"rail\"></div>",
+            "        <div id=\"activeIndicator\"></div>",
+            "    </div>",
+            "</aside>",
+            "<div id=\"tab-button\">",
+            "    <i class=\"zenicon-control-point\"></i>",
+            "</div>",
+            "<section id=\"section1\" class=\"sidebar-content\">",
+            "    <!-- Content for Section 1 -->",
+            "</section>",
+            "<section id=\"section2\" class=\"sidebar-content\">",
+            "    <!-- Content for Section 2 -->",
+            "</section>",
+            "<section id=\"section3\" class=\"sidebar-content\">",
+            "    <!-- Content for Section 3 -->",
+            "</section>"
+        ],
+        "description": "Sidebar with content sections"
+    },"testimonials-1 Structure": {
+        "prefix": "testimonials-1",
+        "body": [
+            "<z-col class=\"card card-split theme-light small\">",
+            "    <div class=\"image-group gap-0 p-2 pt-1 pl-1\">",
+            "        <img src=\"your-image.jpg\" class=\"w-75\" alt=\"\"><br>",
+            "        <star-component stars=\"4\" half=\"true\"></star-component>",
+            "    </div>",
+            "    <div class=\"text-group\">",
+            "        <h6>Ex error nobis possimus</h6>",
+            "        <small>Lorem ipsum, dolor ...</small>",
+            "        <small class=\"signature\">-John Doe</small>",
+            "    </div>",
+            "</z-col>"
+        ],
+        "description": "Split card style testimonial"
+    },    "testimonials-2 Structure": {
+        "prefix": "testimonials-2",
+        "body": [
+            "<div class=\"card theme-primary center\">",
+            "    <img src=\"your-img.jpg\" class=\"w-75 center-me img-round\" alt=\"\">",
+            "    <star-component stars=\"4\" half=\"true\"></star-component>",
+            "    <p>Lorem ipsum, dolor...</p>",
+            "    <small class=\"signature smaller\">-John Doe</small>",
+            "</div>"
+        ],
+        "description": "Centered card style testimonial"
+    },"tooltip Structure": {
+        "prefix": "tooltip",
+        "body": [
+            "<p>Tooltip on a <a href=\"#\" data-tooltip=\"In a gentle way, you can shake the world.\">link</a></p>",
+            "<button data-tooltip=\"In a gentle way, you can shake the world.\" data-placement=\"bottom\">Tooltip on a button</button>"
+        ],
+        "description": "Tooltip on link and button"
+    },
+    
+    "tabs-round-thin Structure": {
+        "prefix": "tabs-round-thin",
+        "body": [
+            "<div class=\"tab-nav-round-thin\">",
+            "    <a class=\"item bg-ui-hover\">item 1</a>",
+            "    <a class=\"item bg-ui-hover\">item 2</a>",
+            "    <a class=\"item bg-ui-hover\">item 3</a>",
+            "    <a class=\"item bg-ui-hover\">item 4</a>",
+            "</div>",
+            "<div class=\"tab-nav-round-thin\">",
+            "    <a class=\"item current\">Left Item</a>",
+            "    <a class=\"item\">Right Item</a>",
+            "</div>"
+        ],
+        "description": "Round thin tabs navigation"
+    },
+    
+    "tabs-thin Structure": {
+        "prefix": "tabs-thin",
+        "body": [
+            "<div class=\"tab-nav-thin\">",
+            "    <a class=\"item\">item 1</a>",
+            "    <a class=\"item\">item 2</a>",
+            "    <a class=\"item current\">item 3</a>",
+            "    <a class=\"item\">item 4</a>",
+            "</div>"
+        ],
+        "description": "Thin tabs navigation"
+    },
+    
+    "tabs-square Structure": {
+        "prefix": "tabs-square",
+        "body": [
+            "<div class=\"tab-nav\">",
+            "    <a class=\"item current\">item 1</a>",
+            "    <a class=\"item\">item 2</a>",
+            "    <a class=\"item\">item 3</a>",
+            "    <a class=\"item\">item 4</a>",
+            "</div>"
+        ],
+        "description": "Square tabs navigation"
+    },
+    
+    "tabs-round Structure": {
+        "prefix": "tabs-round",
+        "body": [
+            "<div class=\"tab-nav-round\">",
+            "    <a class=\"item\">item 1</a>",
+            "    <a class=\"item current\">item 2</a>",
+            "    <a class=\"item\">item 3</a>",
+            "    <a class=\"item\">item 4</a>",
+            "</div>"
+        ],
+        "description": "Round tabs navigation"
+    },
+    
+    "tabs-themed Structure": {
+        "prefix": "tabs-themed",
+        "body": [
+            "<div class=\"tab-nav-round\">",
+            "    <a class=\"item bg-cta bg-cta-hover\">item 1</a>",
+            "    <a class=\"item current bg-cta-dark bg-cta-hover\">item 2</a>",
+            "    <a class=\"item bg-cta bg-cta-hover\">item 3</a>",
+            "    <a class=\"item bg-cta bg-cta-hover\">item 4</a>",
+            "</div>"
+        ],
+        "description": "Themed tabs navigation"
+    },
+    
+    "tabs-pills Structure": {
+        "prefix": "tabs-pills",
+        "body": [
+            "<div class=\"tab-nav\">",
+            "    <a class=\"item-minimal current\">item 1</a>",
+            "    <a class=\"item-minimal\">item 2</a>",
+            "    <a class=\"item-minimal\">item 3</a>",
+            "    <a class=\"item-minimal\">item 4</a>",
+            "</div>"
+        ],
+        "description": "Pill-style tabs navigation"
+    },
+    
+    "tabs-themed-pills Structure": {
+        "prefix": "tabs-themed-pills",
+        "body": [
+            "<div class=\"tab-nav theme-cta\">",
+            "    <a class=\"item-minimal current btn-cta\">item 1</a>",
+            "    <a class=\"item-minimal btn-cta\">item 2</a>",
+            "    <a class=\"item-minimal btn-cta\">item 3</a>",
+            "    <a class=\"item-minimal btn-cta\">item 4</a>",
+            "</div>"
+        ],
+        "description": "Themed pill-style tabs navigation"
+    },
+    
+    "tabs-themed-pills-2 Structure": {
+        "prefix": "tabs-themed-pills-2",
+        "body": [
+            "<div class=\"tab-nav\">",
+            "    <a class=\"item-minimal current bg-cta bg-cta-hover\">item 1</a>",
+            "    <a class=\"item-minimal text-cta bg-cta-hover\">item 2</a>",
+            "    <a class=\"item-minimal text-cta bg-cta-hover\">item 3</a>",
+            "    <a class=\"item-minimal text-cta bg-cta-hover\">item 4</a>",
+            "</div>"
+        ],
+        "description": "Alternative themed pill-style tabs navigation"
+    },"tabbed-interface Structure": {
+        "prefix": "tabbed-interface",
+        "body": [
+            "<div class=\"wizard\">",
+            "    <div class=\"pagination-nav center-flex\">",
+            "        <a class=\"item-minimal wizard-nav\" data-step=\"1\">Section 1</a>",
+            "        <a class=\"item-minimal wizard-nav\" data-step=\"2\">Section 2</a>",
+            "        <a class=\"item-minimal wizard-nav\" data-step=\"3\">Section 3</a>",
+            "    </div>",
+            "    <div class=\"wizard-step card bg-grey-1-dark\" id=\"step-1\">Section 1 Content</div>",
+            "    <div class=\"wizard-step card bg-grey-2\" id=\"step-2\">Section 2 Content</div>",
+            "    <div class=\"wizard-step card bg-grey-2-dark\" id=\"step-3\">Section 3 Content</div>",
+            "</div>"
+        ],
+        "description": "Tabbed interface with navigation and content sections"
+    },"video Structure": {
+        "prefix": "video",
+        "body": [
+            "<div class=\"video-container\">",
+            "    <video controls poster=\"path_to_your_thumbnail.jpg\">",
+            "        <source src=\"path_to_your_video.mp4\" type=\"video/mp4\">",
+            "        <source src=\"path_to_your_video.webm\" type=\"video/webm\">",
+            "        Your browser does not support the video tag.",
+            "    </video>",
+            "</div>"
+        ],
+        "description": "Video container for custom video sources"
+    },"video-youtube Structure": {
+        "prefix": "video-youtube",
+        "body": [
+            "<div class=\"youtube:video-container\">",
+            "    <iframe src=\"https://www.youtube.com/embed/IaQEmepUfwQ?si=pluiJZikUWe9e1KK\" frameborder=\"0\" allowfullscreen></iframe>",
+            "</div>"
+        ],
+        "description": "YouTube video container"
+    },"multi-step-wizard Structure": {
+        "prefix": "multi-step-wizard",
+        "body": [
+            "<div class=\"mswizard\">",
+            "  <div class=\"step-info\">Step <span id=\"current-step\"></span> of",
+            "  <span id=\"total-steps\"></span></div>",
+            "  <div class=\"progress-bar-container\">",
+            "    <progress class=\"mswizard-progress\" value=\"0\" max=\"100\"></progress>",
+            "    <div class=\"progress-percentage\">0%</div>",
+            "  </div>",
+            "  <div class=\"mswizard-step card theme-light narrow-xl\" id=\"step-1\">",
+            "    <p>Step 1 content</p>",
+            "  </div>",
+            "  <!-- Additional steps here -->",
+            "  <div class=\"mswizard-step card theme-light narrow-xl\" id=\"step-5\">",
+            "    <p>Success content goes here</p>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Multi-step wizard with progress bar"
+    }
+}
