@@ -1,6 +1,6 @@
 {
     "zenCSS z-container, z-row, and z-col Structure": {
-        "prefix": "container>z-row>z-col",
+        "prefix": "z-container>z-row>z-col",
         "body": [
             "<z-container>",
             "    <z-row>",
@@ -11,7 +11,7 @@
         "description": "zenCSS container, row, and col structure"
     },
     "zenCSS z-row and z-col Structure": {
-        "prefix": "row>z-col",
+        "prefix": "z-row>z-col",
         "body": [
             "<z-row>",
             "    <z-col>$0</z-col>",
@@ -20,7 +20,7 @@
         "description": "zenCSS row and col structure"
     },
     "zenCSS z-col Structure": {
-        "prefix": "col",
+        "prefix": "z-col",
         "body": [
             "<z-col>$0</z-col>"
         ],
