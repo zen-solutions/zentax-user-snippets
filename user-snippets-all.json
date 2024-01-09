@@ -635,7 +635,7 @@
             "              <img src=\"image-1.jpg\" alt=\"\">",
             "              <div class=\"card p-0 m-0\">",
             "                <p class=\"headline mt-4\">Aatque  <span class=\"bolder text-cta-dual\">$27</span></p>",
-            "                <small>Lorem ipsum dolor...</small>",
+            "                <small>Lorem ipsum dolor... </small>",
             "              </div>",
             "            </z-col>",
             "            <z-col class=\"p-2\">",
