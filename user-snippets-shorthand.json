@@ -8,7 +8,7 @@
             "    </z-row>",
             "</z-container>"
         ],
-        "description": "zenCSS container, row, and col structure"
+        "description": "zenCSS container, row and col structure"
     },
     "zenCSS z-row and z-col Structure": {
         "prefix": "z-row>z-col",
