@@ -2319,9 +2319,9 @@
         "body": [
             "<z-container>",
             "    <z-row class=\"fixed-background h-350\">",
-            "        <z-col class=\"text-center-vertical\">",
+            "        <z-col class=\"text-center flex-center-vertical\">",
             "            <img src=\"../../dist/img/placeholder/16x9/MaevaVigier.jpg\" alt=\"Background Image\">",
-            "            <h2 class=\"text-center text-white\">Content Area w fixed background image</h2>",
+            "            <h2 class=\"text-white\">Content Area w fixed background image</h2>",
             "        </z-col>",
             "    </z-row>",
             "</z-container>"
