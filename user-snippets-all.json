@@ -2314,5 +2314,18 @@
             "</z-container>"
         ],
         "description": "zenCSS card-carousel structure"
+    }, "fixed-background": {
+        "prefix": "fixed-background",
+        "body": [
+            "<z-container>",
+            "    <z-row class=\"fixed-background h-350\">",
+            "        <z-col class=\"text-center-vertical\">",
+            "            <img src=\"../../dist/img/placeholder/16x9/MaevaVigier.jpg\" alt=\"Background Image\">",
+            "            <h2 class=\"text-center text-white\">Content Area w fixed background image</h2>",
+            "        </z-col>",
+            "    </z-row>",
+            "</z-container>"
+        ],
+        "description": "Fixed background image content area"
     }
 }
