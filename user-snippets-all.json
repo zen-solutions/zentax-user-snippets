@@ -1960,32 +1960,6 @@
             "</div>"
         ],
         "description": "Quiz steps with result types"
-    },"sidebar Structure": {
-        "prefix": "z-sidebar",
-        "body": [
-            "<aside>",
-            "    <div id=\"sidebar\" class=\"zen\">",
-            "        <nav role=\"navigation\">",
-            "            <!-- Sidebar navigation links -->",
-            "        </nav>",
-            "        <div id=\"rail\"></div>",
-            "        <div id=\"activeIndicator\"></div>",
-            "    </div>",
-            "</aside>",
-            "<div id=\"tab-button\">",
-            "    <i class=\"zenicon-control-point\"></i>",
-            "</div>",
-            "<section id=\"section1\" class=\"sidebar-content\">",
-            "    <!-- Content for Section 1 -->",
-            "</section>",
-            "<section id=\"section2\" class=\"sidebar-content\">",
-            "    <!-- Content for Section 2 -->",
-            "</section>",
-            "<section id=\"section3\" class=\"sidebar-content\">",
-            "    <!-- Content for Section 3 -->",
-            "</section>"
-        ],
-        "description": "Sidebar with content sections"
     },"testimonials-1 Structure": {
         "prefix": "z-testimonials-1",
         "body": [
