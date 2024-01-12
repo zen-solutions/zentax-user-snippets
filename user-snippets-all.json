@@ -1,6 +1,6 @@
 {
     "zenCSS z-container, z-row, and z-col Structure": {
-        "prefix": "z-container>z-row>z-col",
+        "prefix": "z-z-container>z-row>z-col",
         "body": [
             "<z-container>",
             "    <z-row>",
@@ -11,7 +11,7 @@
         "description": "zenCSS container, row, and col structure"
     },
     "zenCSS z-row and z-col Structure": {
-        "prefix": "z-row>z-col",
+        "prefix": "z-z-row>z-col",
         "body": [
             "<z-row>",
             "    <z-col>$0</z-col>",
@@ -20,14 +20,14 @@
         "description": "zenCSS row and col structure"
     },
     "zenCSS z-col Structure": {
-        "prefix": "z-col",
+        "prefix": "z-z-col",
         "body": [
             "<z-col>$0</z-col>"
         ],
         "description": "zenCSS col structure"
     },
     "zenCSS header-1 Structure": {
-        "prefix": "header-1",
+        "prefix": "z-header-1",
         "body": [
             "<header class=\"header-sticky\">",
             "    <div class=\"pl-2\" id=\"header-logo\">",
@@ -49,7 +49,7 @@
         "description": "zenCSS header-1 structure"
     },
     "zenCSS header-2 Structure": {
-        "prefix": "header-2",
+        "prefix": "z-header-2",
         "body": [
             "<header class=\"header-sticky\">",
             "    <div class=\"pl-2\" id=\"header-logo\">",
@@ -60,7 +60,7 @@
         ],
         "description": "zenCSS header-2 structure"
     }, "zenCSS hero-fullscreen Structure": {
-        "prefix": "hero-fullscreen",
+        "prefix": "z-hero-fullscreen",
         "body": [
             "<z-container-fluid class=\"theme-cta card hero-section m-0 mb-5\">",
             "  <z-container>",
@@ -81,7 +81,7 @@
         "description": "zenCSS hero-fullscreen structure"
     },
     "zenCSS hero standard width Structure": {
-        "prefix": "hero-standard",
+        "prefix": "z-hero-standard",
         "body": [
             "<z-container class=\"center-flex\">",
             "  <z-row>",
@@ -99,7 +99,7 @@
         ],
         "description": "zenCSS hero standard width structure"
     },"zenCSS image-text-1 Structure": {
-        "prefix": "image-text-1",
+        "prefix": "z-image-text-1",
         "body": [
             "<z-container>",
             "  <z-row class=\"gap-0\">",
@@ -129,7 +129,7 @@
         ],
         "description": "zenCSS image-text-1 structure"
     }, "zenCSS image-text-2 Structure": {
-        "prefix": "image-text-2",
+        "prefix": "z-image-text-2",
         "body": [
             "<z-container>",
             "  <z-row>",
@@ -160,7 +160,7 @@
         "description": "zenCSS image-text-2 structure"
     },
     "zenCSS image-text-3 Structure": {
-        "prefix": "image-text-3",
+        "prefix": "z-image-text-3",
         "body": [
             "<z-container>",
             "  <z-row class=\"gap-0\">",
@@ -177,7 +177,7 @@
         "description": "zenCSS image-text-3 structure"
     },
     "zenCSS image-text-4 Structure": {
-        "prefix": "image-text-4",
+        "prefix": "z-image-text-4",
         "body": [
             "<z-container class=\"page-section\">",
             "  <z-row>",
@@ -196,7 +196,7 @@
         "description": "zenCSS image-text-4 structure"
     },
     "zenCSS image-text-5 Structure": {
-        "prefix": "image-text-5",
+        "prefix": "z-image-text-5",
         "body": [
             "<z-container class=\"page-section\">",
             "  <z-row class=\"theme-light p-0 gap-0\">",
@@ -215,7 +215,7 @@
         "description": "zenCSS image-text-5 structure"
     },
     "zenCSS image-text-6 Structure": {
-        "prefix": "image-text-6",
+        "prefix": "z-image-text-6",
         "body": [
             "<z-container class=\"page-section\">",
             "  <z-row class=\"p-0 border-3 square\">",
@@ -234,7 +234,7 @@
         "description": "zenCSS image-text-6 structure"
     },
     "zenCSS image-text-7 Structure": {
-        "prefix": "image-text-7",
+        "prefix": "z-image-text-7",
         "body": [
             "<z-container class=\"page-section\">",
             "  <z-row class=\"p-0 mobile:reverse\">",
@@ -252,7 +252,7 @@
         ],
         "description": "zenCSS image-text-7 structure"
     },"zenCSS text-content-row-1 Structure": {
-        "prefix": "text-content-row-1",
+        "prefix": "z-text-content-row-1",
         "body": [
             "<z-container>",
             "  <z-row>",
@@ -288,7 +288,7 @@
         "description": "zenCSS text-content-row-1 structure"
     },
     "zenCSS text-content-row-2 Structure": {
-        "prefix": "text-content-row-2",
+        "prefix": "z-text-content-row-2",
         "body": [
             "<z-container>",
             "  <z-row>",
@@ -330,7 +330,7 @@
         ],
         "description": "zenCSS text-content-row-2 structure"
     }, "zenCSS layout-grid-1 Structure": {
-        "prefix": "layout-grid-1",
+        "prefix": "z-layout-grid-1",
         "body": [
             "<z-container>",
             "    <z-row class=\"mobile:gap-0\">",
@@ -445,7 +445,7 @@
         ],
         "description": "zenCSS layout-grid-1 structure"
     },    "zenCSS layout-grid-2 Structure": {
-        "prefix": "layout-grid-2",
+        "prefix": "z-layout-grid-2",
         "body": [
             "<z-container>",
             "    <z-row>",
@@ -462,7 +462,7 @@
         "description": "zenCSS layout-grid-2 structure"
     },
     "zenCSS layout-grid-3 Structure": {
-        "prefix": "layout-grid-3",
+        "prefix": "z-layout-grid-3",
         "body": [
             "<z-container>",
             "    <z-row>",
@@ -490,7 +490,7 @@
         "description": "zenCSS layout-grid-3 structure"
     },
     "zenCSS layout-grid-4 Structure": {
-        "prefix": "layout-grid-4",
+        "prefix": "z-layout-grid-4",
         "body": [
             "<z-container>",
             "    <z-row>",
@@ -513,7 +513,7 @@
         "description": "zenCSS layout-grid-4 structure"
     },
     "zenCSS layout-grid-5 Structure": {
-        "prefix": "layout-grid-5",
+        "prefix": "z-layout-grid-5",
         "body": [
             "<z-container>",
             "  <z-row>",
@@ -542,7 +542,7 @@
         "description": "zenCSS layout-grid-5 structure"
     },
     "zenCSS layout-grid-6 Structure": {
-        "prefix": "layout-grid-6",
+        "prefix": "z-layout-grid-6",
         "body": [
             "<z-container>",
             "    <z-row class=\"mobile:gap-0\">",
@@ -579,7 +579,7 @@
         ],
         "description": "zenCSS layout-grid-6 structure"
     },"zenCSS product-grid-1 Structure": {
-        "prefix": "product-grid-1",
+        "prefix": "z-product-grid-1",
         "body": [
             "<z-container>",
             "  <z-row>",
@@ -615,7 +615,7 @@
         "description": "zenCSS product-grid-1 structure"
     },
     "zenCSS product-grid-2 Structure": {
-        "prefix": "product-grid-2",
+        "prefix": "z-product-grid-2",
         "body": [
             "<z-container class=\"page-section\">",
             "    <z-row>",
@@ -667,7 +667,7 @@
         ],
         "description": "zenCSS product-grid-2 structure"
     }, "zenCSS faq Structure": {
-        "prefix": "faq",
+        "prefix": "z-faq",
         "body": [
             "<z-container>",
             "  <z-row>",
@@ -708,7 +708,7 @@
         ],
         "description": "zenCSS faq structure"
     }, "zenCSS text-carousel-1 Structure": {
-        "prefix": "text-carousel-1",
+        "prefix": "z-text-carousel-1",
         "body": [
             "<z-container>",
             "  <z-row>",
@@ -747,7 +747,7 @@
         "description": "zenCSS text-carousel-1 structure"
     },
     "zenCSS text-carousel-2 Structure": {
-        "prefix": "text-carousel-2",
+        "prefix": "z-text-carousel-2",
         "body": [
             "<z-container>",
             "  <z-row>",
@@ -773,7 +773,7 @@
         ],
         "description": "zenCSS text-carousel-2 structure"
     }, "zenCSS accordion-content Structure": {
-        "prefix": "accordion-content",
+        "prefix": "z-accordion-content",
         "body": [
             "<z-container class=\"wizard theme-light\">",
             "    <z-row class=\"pt-0 pb-0 mobile:reverse\">",
@@ -812,7 +812,7 @@
         ],
         "description": "zenCSS accordion-content structure"
     },"zenCSS text-optin-form Structure": {
-        "prefix": "text-optin-form",
+        "prefix": "z-text-optin-form",
         "body": [
             "<z-container>",
             "  <z-row>",
@@ -845,7 +845,7 @@
         ],
         "description": "zenCSS text-optin-form structure"
     },"zenCSS footer-1 Structure": {
-        "prefix": "footer-1",
+        "prefix": "z-footer-1",
         "body": [
             "<footer class=\"z-container square\">",
             "    <z-row class=\"mobile:two-up\">",
@@ -879,7 +879,7 @@
         "description": "zenCSS footer-1 structure"
     },
     "zenCSS footer-2 Structure": {
-        "prefix": "footer-2",
+        "prefix": "z-footer-2",
         "body": [
             "<footer>",
             "    <div class=\"social-icons pb-1\">",
@@ -913,7 +913,7 @@
         ],
         "description": "zenCSS footer-2 structure"
     } ,"zenCSS accordion-1 Structure": {
-        "prefix": "accordion-1",
+        "prefix": "z-accordion-1",
         "body": [
             "<div class=\"accordion theme-light\">",
             "    <a href=\"\" class=\"title accordion-toggle\" aria-expanded=\"false\" aria-controls=\"content1\">",
@@ -931,7 +931,7 @@
         "description": "zenCSS accordion-1 structure"
     },
     "zenCSS accordion-2 Structure": {
-        "prefix": "accordion-2",
+        "prefix": "z-accordion-2",
         "body": [
             "<div class=\"accordion theme-light\">",
             "    <a href=\"\" class=\"title accordion-toggle naked text-semibold\" aria-expanded=\"false\" aria-controls=\"content1\">",
@@ -949,7 +949,7 @@
         "description": "zenCSS accordion-2 structure"
     },
     "zenCSS accordion-3 Structure": {
-        "prefix": "accordion-3",
+        "prefix": "z-accordion-3",
         "body": [
             "<div class=\"accordion theme-light\">",
             "    <a href=\"\" class=\"title accordion-toggle naked text-semibold\" aria-expanded=\"false\" aria-controls=\"content1\">",
@@ -966,7 +966,7 @@
         ],
         "description": "zenCSS accordion-3 structure"
     },"zenCSS alert-primary Structure": {
-        "prefix": "alert-primary",
+        "prefix": "z-alert-primary",
         "body": [
             "<div class=\"alert-primary\" role=\"alert\">",
             "    <a class=\"close position-corner\"></a>",
@@ -976,7 +976,7 @@
         "description": "zenCSS primary alert structure"
     },
     "zenCSS alert-primary-minimal Structure": {
-        "prefix": "alert-primary-minimal",
+        "prefix": "z-alert-primary-minimal",
         "body": [
             "<div class=\"alert-primary-minimal\" role=\"alert\">",
             "    primary alert",
@@ -985,7 +985,7 @@
         "description": "zenCSS primary minimal alert structure"
     },
     "zenCSS alert-success Structure": {
-        "prefix": "alert-success",
+        "prefix": "z-alert-success",
         "body": [
             "<div class=\"alert-success\" role=\"alert\">",
             "    success alert",
@@ -994,7 +994,7 @@
         "description": "zenCSS success alert structure"
     },
     "zenCSS alert-success-minimal Structure": {
-        "prefix": "alert-success-minimal",
+        "prefix": "z-alert-success-minimal",
         "body": [
             "<div class=\"alert-success-minimal\" role=\"alert\">",
             "    success alert",
@@ -1003,7 +1003,7 @@
         "description": "zenCSS success minimal alert structure"
     },
     "zenCSS alert-danger Structure": {
-        "prefix": "alert-danger",
+        "prefix": "z-alert-danger",
         "body": [
             "<div class=\"alert-danger\" role=\"alert\">",
             "    danger alert",
@@ -1012,7 +1012,7 @@
         "description": "zenCSS danger alert structure"
     },
     "zenCSS alert-danger-minimal Structure": {
-        "prefix": "alert-danger-minimal",
+        "prefix": "z-alert-danger-minimal",
         "body": [
             "<div class=\"alert-danger-minimal\" role=\"alert\">",
             "    danger alert",
@@ -1021,7 +1021,7 @@
         "description": "zenCSS danger minimal alert structure"
     },
     "zenCSS alert-warning Structure": {
-        "prefix": "alert-warning",
+        "prefix": "z-alert-warning",
         "body": [
             "<div class=\"alert-warning\" role=\"alert\">",
             "    warning alert",
@@ -1030,7 +1030,7 @@
         "description": "zenCSS warning alert structure"
     },
     "zenCSS alert-warning-minimal Structure": {
-        "prefix": "alert-warning-minimal",
+        "prefix": "z-alert-warning-minimal",
         "body": [
             "<div class=\"alert-warning-minimal\" role=\"alert\">",
             "    warning alert",
@@ -1039,7 +1039,7 @@
         "description": "zenCSS warning minimal alert structure"
     },
     "zenCSS alert-dark Structure": {
-        "prefix": "alert-dark",
+        "prefix": "z-alert-dark",
         "body": [
             "<div class=\"alert-dark\" role=\"alert\">",
             "    dark alert",
@@ -1048,7 +1048,7 @@
         "description": "zenCSS dark alert structure"
     },
     "zenCSS alert-dark-minimal Structure": {
-        "prefix": "alert-dark-minimal",
+        "prefix": "z-alert-dark-minimal",
         "body": [
             "<div class=\"alert-dark-minimal\" role=\"alert\">",
             "    dark alert",
@@ -1057,7 +1057,7 @@
         "description": "zenCSS dark minimal alert structure"
     },
     "zenCSS alert-light Structure": {
-        "prefix": "alert-light",
+        "prefix": "z-alert-light",
         "body": [
             "<div class=\"alert-light\" role=\"alert\">",
             "    light alert",
@@ -1066,7 +1066,7 @@
         "description": "zenCSS light alert structure"
     },
     "zenCSS alert-light-minimal Structure": {
-        "prefix": "alert-light-minimal",
+        "prefix": "z-alert-light-minimal",
         "body": [
             "<div class=\"alert-light-minimal\" role=\"alert\">",
             "    light alert",
@@ -1074,7 +1074,7 @@
         ],
         "description": "zenCSS light minimal alert structure"
     }, "zenCSS success Structure": {
-        "prefix": "success",
+        "prefix": "z-success",
         "body": [
             "<div class=\"success\">",
             "    Success",
@@ -1083,7 +1083,7 @@
         "description": "zenCSS success alert structure"
     },
     "zenCSS warning Structure": {
-        "prefix": "warning",
+        "prefix": "z-warning",
         "body": [
             "<div class=\"warning\">",
             "    Warning",
@@ -1092,7 +1092,7 @@
         "description": "zenCSS warning alert structure"
     },
     "zenCSS danger Structure": {
-        "prefix": "danger",
+        "prefix": "z-danger",
         "body": [
             "<div class=\"danger\">",
             "    Danger",
@@ -1101,7 +1101,7 @@
         "description": "zenCSS danger alert structure"
     },
     "zenCSS notice Structure": {
-        "prefix": "notice",
+        "prefix": "z-notice",
         "body": [
             "<div class=\"notice\">",
             "    Notice",
@@ -1109,121 +1109,121 @@
         ],
         "description": "zenCSS notice alert structure"
     },"btn-primary Structure": {
-        "prefix": "btn-primary",
+        "prefix": "z-btn-primary",
         "body": "<button class=\"btn-primary\">Primary</button>",
         "description": "Button with primary style"
     },
     "btn-secondary Structure": {
-        "prefix": "btn-secondary",
+        "prefix": "z-btn-secondary",
         "body": "<button class=\"btn-secondary\">Secondary</button>",
         "description": "Button with secondary style"
     },
     "btn-cta Structure": {
-        "prefix": "btn-cta",
+        "prefix": "z-btn-cta",
         "body": "<button class=\"btn-cta\">CTA</button>",
         "description": "Button with CTA style"
     },
     "btn-accent Structure": {
-        "prefix": "btn-accent",
+        "prefix": "z-btn-accent",
         "body": "<button class=\"btn-accent\">Accent</button>",
         "description": "Button with accent style"
     },
     "btn-dark Structure": {
-        "prefix": "btn-dark",
+        "prefix": "z-btn-dark",
         "body": "<button class=\"btn-dark\">Dark</button>",
         "description": "Button with dark style"
     },
     "btn-light Structure": {
-        "prefix": "btn-light",
+        "prefix": "z-btn-light",
         "body": "<button class=\"btn-light\">Light</button>",
         "description": "Button with light style"
     },
     "btn-default Structure": {
-        "prefix": "btn-default",
+        "prefix": "z-btn-default",
         "body": "<button>Default</button>",
         "description": "Default button style"
     },
     "btn-primary-outline Structure": {
-        "prefix": "btn-primary-outline",
+        "prefix": "z-btn-primary-outline",
         "body": "<button class=\"btn-primary-outline\">Primary</button>",
         "description": "Primary button with outline"
     },
     "btn-secondary-outline Structure": {
-        "prefix": "btn-secondary-outline",
+        "prefix": "z-btn-secondary-outline",
         "body": "<button class=\"btn-secondary-outline\">Secondary</button>",
         "description": "Secondary button with outline"
     },
     "btn-cta-outline Structure": {
-        "prefix": "btn-cta-outline",
+        "prefix": "z-btn-cta-outline",
         "body": "<button class=\"btn-cta-outline\">CTA</button>",
         "description": "CTA button with outline"
     },
     "btn-accent-outline Structure": {
-        "prefix": "btn-accent-outline",
+        "prefix": "z-btn-accent-outline",
         "body": "<button class=\"btn-accent-outline\">Accent</button>",
         "description": "Accent button with outline"
     },
     "btn-dark-outline Structure": {
-        "prefix": "btn-dark-outline",
+        "prefix": "z-btn-dark-outline",
         "body": "<button class=\"btn-dark-outline\">Dark</button>",
         "description": "Dark button with outline"
     },
     "btn-light-outline Structure": {
-        "prefix": "btn-light-outline",
+        "prefix": "z-btn-light-outline",
         "body": "<button class=\"btn-light-outline\">Light</button>",
         "description": "Light button with outline"
     },
     "link-primary Structure": {
-        "prefix": "link-primary",
+        "prefix": "z-link-primary",
         "body": "<a class=\"btn btn-primary\">Primary</a>\n<a class=\"btn btn-primary-outline\">Primary</a>",
         "description": "Link styled as primary button"
     },
     "link-secondary Structure": {
-        "prefix": "link-secondary",
+        "prefix": "z-link-secondary",
         "body": "<a class=\"btn btn-secondary\">Secondary</a>\n<a class=\"btn btn-secondary-outline\">Secondary</a>",
         "description": "Link styled as secondary button"
     },
     "link-cta Structure": {
-        "prefix": "link-cta",
+        "prefix": "z-link-cta",
         "body": "<a class=\"btn btn-cta\">CTA</a>\n<a class=\"btn btn-cta-outline\">CTA</a>",
         "description": "Link styled as CTA button"
     },
     "link-accent Structure": {
-        "prefix": "link-accent",
+        "prefix": "z-link-accent",
         "body": "<a class=\"btn btn-accent\">Accent</a>\n<a class=\"btn btn-accent-outline\">Accent</a>",
         "description": "Link styled as accent button"
     },
     "link-dark Structure": {
-        "prefix": "link-dark",
+        "prefix": "z-link-dark",
         "body": "<a class=\"btn btn-dark\">Dark</a>\n<a class=\"btn btn-dark-outline\">Dark</a>",
         "description": "Link styled as dark button"
     },
     "link-light Structure": {
-        "prefix": "link-light",
+        "prefix": "z-link-light",
         "body": "<a class=\"btn btn-light\">Light</a>\n<a class=\"btn btn-light-outline\">Light</a>",
         "description": "Link styled as light button"
     },
     "btn-sm Structure": {
-        "prefix": "btn-sm",
+        "prefix": "z-btn-sm",
         "body": "<button class=\"btn-sm\">btn-sm</button>",
         "description": "Small button style"
     },
     "btn-md Structure": {
-        "prefix": "btn-md",
+        "prefix": "z-btn-md",
         "body": "<button class=\"btn-md\">btn-md</button>",
         "description": "Medium button style"
     },
     "btn-lg Structure": {
-        "prefix": "btn-lg",
+        "prefix": "z-btn-lg",
         "body": "<button class=\"btn-lg\">btn-lg</button>",
         "description": "Large button style"
     },
     "btn-xl Structure": {
-        "prefix": "btn-xl",
+        "prefix": "z-btn-xl",
         "body": "<button class=\"btn-xl\">btn-xl</button>",
         "description": "Extra large button style"
     },"breadcrumbs Structure": {
-        "prefix": "breadcrumbs",
+        "prefix": "z-breadcrumbs",
         "body": [
             "<ul class=\"breadcrumb\">",
             "    <li><a href=\"#\">Home</a></li>",
@@ -1234,7 +1234,7 @@
         ],
         "description": "Breadcrumb navigation structure"
     },"card-full-bleed Structure": {
-        "prefix": "card-full-bleed",
+        "prefix": "z-card-full-bleed",
         "body": [
             "<z-col class=\"card p-0 theme-light\">",
             "  <img src=\"your-image.jpg\" class=\"square\" alt=\"\">",
@@ -1247,7 +1247,7 @@
     },
     
     "card-left-img Structure": {
-        "prefix": "card-left-img",
+        "prefix": "z-card-left-img",
         "body": [
             "<z-container class=\"single page-section\">",
             "  <z-row class=\"card theme-light p-0\">",
@@ -1265,7 +1265,7 @@
     },
     
     "card-full-img Structure": {
-        "prefix": "card-full-img",
+        "prefix": "z-card-full-img",
         "body": [
             "<z-col class=\"card theme-dark gap-3 h-300 overflow-hidden\">",
             "    <div class=\"overlay\"></div>", 
@@ -1279,7 +1279,7 @@
     },
     
     "card-hover-pan Structure": {
-        "prefix": "card-hover-pan",
+        "prefix": "z-card-hover-pan",
         "body": [
             "<z-container>",
             "  <z-row>",
@@ -1297,7 +1297,7 @@
     },
     
     "card-img Structure": {
-        "prefix": "card-img",
+        "prefix": "z-card-img",
         "body": [
             "<z-container>",
             "  <z-row>",
@@ -1315,7 +1315,7 @@
     },
     
     "card-text-wrap Structure": {
-        "prefix": "card-text-wrap",
+        "prefix": "z-card-text-wrap",
         "body": [
             "<z-col class=\"card theme-light\">",
             "  <div>",
@@ -1329,7 +1329,7 @@
     },
     
     "card-icon Structure": {
-        "prefix": "card-icon",
+        "prefix": "z-card-icon",
         "body": [
             "<z-container>",
             "  <z-row>",
@@ -1344,7 +1344,7 @@
         ],
         "description": "Card with icon"
     },"cookie-consent Structure": {
-        "prefix": "cookie-consent",
+        "prefix": "z-cookie-consent",
         "body": [
             "<div class=\"cookie-consent-banner\">",
             "    <p> Our website uses cookies to ... Learn more in our",
@@ -1355,7 +1355,7 @@
         ],
         "description": "Cookie consent banner"
     },"corner-popup Structure": {
-        "prefix": "corner-popup",
+        "prefix": "z-corner-popup",
         "body": [
             "<div class=\"corner-popup\">",
             "    <button class=\"btn-circle\" data-unread=\"1\" data-animate=\"true\"><i class=\"zenicon-local-offer text-lg\"></i></button>",
@@ -1367,7 +1367,7 @@
         ],
         "description": "Corner popup UI component"
     },"exit-popup Structure": {
-        "prefix": "exit-popup",
+        "prefix": "z-exit-popup",
         "body": [
             "<div class=\"exit\">",
             "    <div class=\"modal-content center\">",
@@ -1381,7 +1381,7 @@
         ],
         "description": "Exit popup UI component"
     },"sign-up-form Structure": {
-        "prefix": "sign-up-form",
+        "prefix": "z-sign-up-form",
         "body": [
             "<div class=\"card form-container theme-light\">",
             "  <h5 class=\"headline center\">Sign Up for Updates</h5>",
@@ -1406,7 +1406,7 @@
         ],
         "description": "Sign-up form UI component"
     },"sign-in-form Structure": {
-        "prefix": "sign-in-form",
+        "prefix": "z-sign-in-form",
         "body": [
             "<div class=\"card form-container theme-light\">",
             "    <h5 class=\"h6 headline pb-0\">Sign Into Your Account</h5>",
@@ -1427,7 +1427,7 @@
         ],
         "description": "Sign-in form UI component"
     },"table-1 Structure": {
-        "prefix": "table-1",
+        "prefix": "z-table-1",
         "body": [
             "<table class=\"responsive-table striped\">",
             "     <thead>",
@@ -1450,7 +1450,7 @@
         "description": "Responsive table with striped style"
     },
     "table-2 Structure": {
-        "prefix": "table-2",
+        "prefix": "z-table-2",
         "body": [
             "<table class=\"responsive-table zebra\">",
             "     <thead>",
@@ -1473,7 +1473,7 @@
         "description": "Responsive table with zebra style"
     },
     "table-3 Structure": {
-        "prefix": "table-3",
+        "prefix": "z-table-3",
         "body": [
             "<table class=\"responsive-table striped zebra\">",
             "     <thead>",
@@ -1496,7 +1496,7 @@
         "description": "Responsive table with combined striped and zebra style"
     },
     "table-4 Structure": {
-        "prefix": "table-4",
+        "prefix": "z-table-4",
         "body": [
             "<table class=\"responsive-table\">",
             " <thead>",
@@ -1518,11 +1518,11 @@
         ],
         "description": "Standard responsive table"
     },"icon Structure": {
-        "prefix": "icon",
+        "prefix": "z-icon",
         "body": "<i class=\"zenicon-control-point\"></i>",
         "description": "Icon element"
     },"image-carousel Structure": {
-        "prefix": "image-carousel",
+        "prefix": "z-image-carousel",
         "body": [
             "<div class=\"slider\" data-auto-rotate=\"true\">",
             "    <div class=\"slides-container\">",
@@ -1536,7 +1536,7 @@
         ],
         "description": "Image carousel component"
     },"image-gallery Structure": {
-        "prefix": "image-gallery",
+        "prefix": "z-image-gallery",
         "body": [
             "<!-- Image Gallery -->",
             "<div class=\"image-gallery\">",
@@ -1564,65 +1564,65 @@
         ],
         "description": "Image gallery with modal"
     },"label-default Structure": {
-        "prefix": "label-default",
+        "prefix": "z-label-default",
         "body": "<span class=\"label\">Default</span>",
         "description": "Default label"
     },
     "label-primary Structure": {
-        "prefix": "label-primary",
+        "prefix": "z-label-primary",
         "body": "<span class=\"label bg-primary\">Primary</span>",
         "description": "Primary label"
     },
     "label-secondary Structure": {
-        "prefix": "label-secondary",
+        "prefix": "z-label-secondary",
         "body": "<span class=\"label bg-secondary\">Secondary</span>",
         "description": "Secondary label"
     },
     "label-cta Structure": {
-        "prefix": "label-cta",
+        "prefix": "z-label-cta",
         "body": "<span class=\"label bg-cta\">CTA</span>",
         "description": "CTA label"
     },
     "label-accent Structure": {
-        "prefix": "label-accent",
+        "prefix": "z-label-accent",
         "body": "<span class=\"label bg-accent\">Accent</span>",
         "description": "Accent label"
     },
     "label-dark Structure": {
-        "prefix": "label-dark",
+        "prefix": "z-label-dark",
         "body": "<span class=\"label bg-dark\">Dark</span>",
         "description": "Dark label"
     },
     "label-light Structure": {
-        "prefix": "label-light",
+        "prefix": "z-label-light",
         "body": "<span class=\"label bg-light\">Light</span>",
         "description": "Light label"
     },"link-default Structure": {
-        "prefix": "link-default",
+        "prefix": "z-link-default",
         "body": "<a>Default</a>",
         "description": "Default link style"
     },"link-reverse Structure": {
-        "prefix": "link-reverse",
+        "prefix": "z-link-reverse",
         "body": "<a class=\"link-reverse\">Reverse</a>",
         "description": "Reverse link style"
     },"link-classic Structure": {
-        "prefix": "link-classic",
+        "prefix": "z-link-classic",
         "body": "<a class=\"link-classic\">Classic</a>",
         "description": "Classic link style"
     },"link-icon Structure": {
-        "prefix": "link-icon",
+        "prefix": "z-link-icon",
         "body": "<a>With Icon <i class=\"zenicon-east\"></i></a>",
         "description": "Link with an icon"
     },"link-animated Structure": {
-        "prefix": "link-animated",
+        "prefix": "z-link-animated",
         "body": "<a class=\"text-cta-dual link-underline\">Hover<i class=\"zenicon-east down-2\"></i></a>",
         "description": "Animated link style"
     },"link-animated-dark Structure": {
-        "prefix": "link-animated-dark",
+        "prefix": "z-link-animated-dark",
         "body": "<a class=\"text-cta-dual link-underline link-underline-white\">Hover<i class=\"zenicon-east down-2\"></i></a>",
         "description": "Animated dark link style"
     },"link-bottom Structure": {
-        "prefix": "link-bottom",
+        "prefix": "z-link-bottom",
         "body": [
             "<div class=\"card-bottom\">",
             "  <a class=\"text-cta-dual link-underline\">Click <i class=\"zenicon-east down-2\"></i></a>",
@@ -1630,7 +1630,7 @@
         ],
         "description": "Link at the bottom of a card"
     },"list-border Structure": {
-        "prefix": "list-border",
+        "prefix": "z-list-border",
         "body": [
             "<ul class=\"list-group\">",
             "  <li class=\"list-group-item\">Lorem ipsum dolor</li>",
@@ -1644,7 +1644,7 @@
     },
     
     "list-flush Structure": {
-        "prefix": "list-flush",
+        "prefix": "z-list-flush",
         "body": [
             "<ul class=\"list-group list-group-flush\">",
             "  <li class=\"list-group-item\">Lorem ipsum dolor</li>",
@@ -1656,7 +1656,7 @@
     },
     
     "list-active Structure": {
-        "prefix": "list-active",
+        "prefix": "z-list-active",
         "body": [
             "<h3 class=\"pt-3\">Active Item</h3>",
             "<ul class=\"list-group\">",
@@ -1669,7 +1669,7 @@
     },
     
     "list-disabled Structure": {
-        "prefix": "list-disabled",
+        "prefix": "z-list-disabled",
         "body": [
             "<ul class=\"list-group\">",
             "  <li class=\"list-group-item disabled\" aria-disabled=\"true\">Lorem ipsum dolor</li>",
@@ -1681,7 +1681,7 @@
     },
     
     "list-link Structure": {
-        "prefix": "list-link",
+        "prefix": "z-list-link",
         "body": [
             "<div class=\"list-group\">",
             "  <a href=\"#\" class=\"list-group-item list-group-item-action\">Lorem ipsum dolor</a>",
@@ -1693,7 +1693,7 @@
     },
     
     "list-horizontal Structure": {
-        "prefix": "list-horizontal",
+        "prefix": "z-list-horizontal",
         "body": [
             "<ul class=\"list-group list-group-horizontal\">",
             "  <li class=\"list-group-item\">Lorem ipsum dolor</li>",
@@ -1705,7 +1705,7 @@
     },
     
     "list-success Structure": {
-        "prefix": "list-success",
+        "prefix": "z-list-success",
         "body": [
             "<ul class=\"list-group\">",
             "    <li class=\"list-group-item success\">Success</li>",
@@ -1713,7 +1713,7 @@
         ],
         "description": "List with success style"
     },"list-warning Structure": {
-        "prefix": "list-warning",
+        "prefix": "z-list-warning",
         "body": [
             "<ul class=\"list-group\">",
             "    <li class=\"list-group-item warning\">Warning</li>",
@@ -1721,7 +1721,7 @@
         ],
         "description": "List with warning style"
     },"list-danger Structure": {
-        "prefix": "list-danger",
+        "prefix": "z-list-danger",
         "body": [
             "<ul class=\"list-group\">",
             "    <li class=\"list-group-item danger\">Danger</li>",
@@ -1729,7 +1729,7 @@
         ],
         "description": "List with danger style"
     },"list-notice Structure": {
-        "prefix": "list-notice",
+        "prefix": "z-list-notice",
         "body": [
             "<ul class=\"list-group\">",
             "    <li class=\"list-group-item notice\">Notice</li>",
@@ -1737,7 +1737,7 @@
         ],
         "description": "List with notice style"
     },"logo-bar Structure": {
-        "prefix": "logo-bar",
+        "prefix": "z-logo-bar",
         "body": [
             "<z-container class=\"bg-opaque\">",
             "    <z-row class=\"six-up mobile:max-up\">",
@@ -1756,7 +1756,7 @@
         ],
         "description": "Logo bar with multiple logos"
     },"menu-expanded Structure": {
-        "prefix": "menu-expanded",
+        "prefix": "z-menu-expanded",
         "body": [
             "<nav class=\"nav-menu\">",
             "    <ul>",
@@ -1773,7 +1773,7 @@
         ],
         "description": "Expanded menu with icons and descriptions"
     },"menu-small Structure": {
-        "prefix": "menu-small",
+        "prefix": "z-menu-small",
         "body": [
             "<nav class=\"nav-menu\">",
             "    <ul>",
@@ -1784,7 +1784,7 @@
         ],
         "description": "Small menu with icons"
     },"modal Structure": {
-        "prefix": "modal",
+        "prefix": "z-modal",
         "body": [
             "<z-modal>",
             "  <h3 slot=\"title\">Title</h3> <!-- optional -->",
@@ -1795,11 +1795,11 @@
         ],
         "description": "Modal component"
     },"modal-button Structure": {
-        "prefix": "modal-button",
+        "prefix": "z-modal-button",
         "body": "<button class=\"modal-open\">Open Modal</button>",
         "description": "Button to open a modal"
     },"pagination Structure": {
-        "prefix": "pagination",
+        "prefix": "z-pagination",
         "body": [
             "<div class=\"pagination-nav center-flex\">",
             "    <a class=\"item\">«</a>",
@@ -1813,7 +1813,7 @@
     },
     
     "pagination-tabbed Structure": {
-        "prefix": "pagination-tabbed",
+        "prefix": "z-pagination-tabbed",
         "body": [
             "<div class=\"pagination-nav center-flex\">",
             "    <a class=\"item-minimal\">← Prev</a>",
@@ -1827,7 +1827,7 @@
     },
     
     "pagination-themed Structure": {
-        "prefix": "pagination-themed",
+        "prefix": "z-pagination-themed",
         "body": [
             "<div class=\"pagination-nav center-flex\">",
             "    <a class=\"item bg-cta-hover\">«</a>",
@@ -1846,7 +1846,7 @@
         ],
         "description": "Themed pagination navigation"
     },"pricing-table-1 Structure": {
-        "prefix": "pricing-table-1",
+        "prefix": "z-pricing-table-1",
         "body": [
             "<z-container>",
             "  <z-row>",
@@ -1886,7 +1886,7 @@
         ],
         "description": "Pricing table with three tiers"
     },"pricing-table-2 Structure": {
-        "prefix": "pricing-table-2",
+        "prefix": "z-pricing-table-2",
         "body": [
             "<z-container>",
             "  <z-row>",
@@ -1925,7 +1925,7 @@
         ],
         "description": "Alternative design for a pricing table"
     },"promo-bar Structure": {
-        "prefix": "promo-bar",
+        "prefix": "z-promo-bar",
         "body": [
             "<div class=\"promo-banner theme-cta\">",
             "  <i class=\"text-accent zenicon-verified mr-1\"></i> 101 Essential Icons for zenCSS.",
@@ -1936,7 +1936,7 @@
         ],
         "description": "Promotional banner"
     },"quiz Structure": {
-        "prefix": "quiz",
+        "prefix": "z-quiz",
         "body": [
             "<div class=\"wizard\">",
             "    <!-- Step 1 -->",
@@ -1961,7 +1961,7 @@
         ],
         "description": "Quiz steps with result types"
     },"sidebar Structure": {
-        "prefix": "sidebar",
+        "prefix": "z-sidebar",
         "body": [
             "<aside>",
             "    <div id=\"sidebar\" class=\"zen\">",
@@ -1987,7 +1987,7 @@
         ],
         "description": "Sidebar with content sections"
     },"testimonials-1 Structure": {
-        "prefix": "testimonials-1",
+        "prefix": "z-testimonials-1",
         "body": [
             "<z-col class=\"card card-split theme-light small\">",
             "    <div class=\"image-group gap-0 p-2 pt-1 pl-1\">",
@@ -2003,7 +2003,7 @@
         ],
         "description": "Split card style testimonial"
     },    "testimonials-2 Structure": {
-        "prefix": "testimonials-2",
+        "prefix": "z-testimonials-2",
         "body": [
             "<div class=\"card theme-primary center\">",
             "    <img src=\"your-img.jpg\" class=\"w-75 center-me img-round\" alt=\"\">",
@@ -2014,7 +2014,7 @@
         ],
         "description": "Centered card style testimonial"
     },"tooltip Structure": {
-        "prefix": "tooltip",
+        "prefix": "z-tooltip",
         "body": [
             "<p>Tooltip on a <a href=\"#\" data-tooltip=\"In a gentle way, you can shake the world.\">link</a></p>",
             "<button data-tooltip=\"In a gentle way, you can shake the world.\" data-placement=\"bottom\">Tooltip on a button</button>"
@@ -2023,7 +2023,7 @@
     },
     
     "tabs-round-thin Structure": {
-        "prefix": "tabs-round-thin",
+        "prefix": "z-tabs-round-thin",
         "body": [
             "<div class=\"tab-nav-round-thin\">",
             "    <a class=\"item bg-ui-hover\">item 1</a>",
@@ -2040,7 +2040,7 @@
     },
     
     "tabs-thin Structure": {
-        "prefix": "tabs-thin",
+        "prefix": "z-tabs-thin",
         "body": [
             "<div class=\"tab-nav-thin\">",
             "    <a class=\"item\">item 1</a>",
@@ -2053,7 +2053,7 @@
     },
     
     "tabs-square Structure": {
-        "prefix": "tabs-square",
+        "prefix": "z-tabs-square",
         "body": [
             "<div class=\"tab-nav\">",
             "    <a class=\"item current\">item 1</a>",
@@ -2066,7 +2066,7 @@
     },
     
     "tabs-round Structure": {
-        "prefix": "tabs-round",
+        "prefix": "z-tabs-round",
         "body": [
             "<div class=\"tab-nav-round\">",
             "    <a class=\"item\">item 1</a>",
@@ -2079,7 +2079,7 @@
     },
     
     "tabs-themed Structure": {
-        "prefix": "tabs-themed",
+        "prefix": "z-tabs-themed",
         "body": [
             "<div class=\"tab-nav-round\">",
             "    <a class=\"item bg-cta bg-cta-hover\">item 1</a>",
@@ -2092,7 +2092,7 @@
     },
     
     "tabs-pills Structure": {
-        "prefix": "tabs-pills",
+        "prefix": "z-tabs-pills",
         "body": [
             "<div class=\"tab-nav\">",
             "    <a class=\"item-minimal current\">item 1</a>",
@@ -2105,7 +2105,7 @@
     },
     
     "tabs-themed-pills Structure": {
-        "prefix": "tabs-themed-pills",
+        "prefix": "z-tabs-themed-pills",
         "body": [
             "<div class=\"tab-nav theme-cta\">",
             "    <a class=\"item-minimal current btn-cta\">item 1</a>",
@@ -2118,7 +2118,7 @@
     },
     
     "tabs-themed-pills-2 Structure": {
-        "prefix": "tabs-themed-pills-2",
+        "prefix": "z-tabs-themed-pills-2",
         "body": [
             "<div class=\"tab-nav\">",
             "    <a class=\"item-minimal current bg-cta bg-cta-hover\">item 1</a>",
@@ -2129,7 +2129,7 @@
         ],
         "description": "Alternative themed pill-style tabs navigation"
     },"tabbed-interface Structure": {
-        "prefix": "tabbed-interface",
+        "prefix": "z-tabbed-interface",
         "body": [
             "<div class=\"wizard\">",
             "    <div class=\"pagination-nav center-flex\">",
@@ -2144,7 +2144,7 @@
         ],
         "description": "Tabbed interface with navigation and content sections"
     },"video Structure": {
-        "prefix": "video",
+        "prefix": "z-video",
         "body": [
             "<div class=\"video-container\">",
             "    <video controls poster=\"path_to_your_thumbnail.jpg\">",
@@ -2156,7 +2156,7 @@
         ],
         "description": "Video container for custom video sources"
     },"video-youtube Structure": {
-        "prefix": "video-youtube",
+        "prefix": "z-video-youtube",
         "body": [
             "<div class=\"youtube:video-container\">",
             "    <iframe src=\"https://www.youtube.com/embed/IaQEmepUfwQ?si=pluiJZikUWe9e1KK\" frameborder=\"0\" allowfullscreen></iframe>",
@@ -2164,7 +2164,7 @@
         ],
         "description": "YouTube video container"
     },"multi-step-wizard Structure": {
-        "prefix": "multi-step-wizard",
+        "prefix": "z-multi-step-wizard",
         "body": [
             "<div class=\"mswizard\">",
             "  <div class=\"step-info\">Step <span id=\"current-step\"></span> of",
@@ -2184,7 +2184,7 @@
         ],
         "description": "Multi-step wizard with progress bar"
     },"layout-grid-7 Structure": {
-        "prefix": "layout-grid-7",
+        "prefix": "z-layout-grid-7",
         "body": [
             "<z-container>",
             "  <z-row class=\"gap-6 p-7 tablet:stack\">",
@@ -2232,7 +2232,7 @@
         ],
         "description": "zenCSS layout-grid-7 structure"
     }, "card-carousel Structure": {
-        "prefix": "card-carousel",
+        "prefix": "z-card-carousel",
         "body": [
             "<z-container>",
             "  <z-row>",
@@ -2315,13 +2315,13 @@
         ],
         "description": "zenCSS card-carousel structure"
     }, "fixed-background": {
-        "prefix": "fixed-background",
+        "prefix": "z-fixed-background",
         "body": [
             "<z-container>",
             "    <z-row class=\"fixed-background h-350\">",
-            "        <z-col class=\"text-center flex-center-vertical\">",
+            "        <z-col class=\"text-center-vertical\">",
             "            <img src=\"../../dist/img/placeholder/16x9/MaevaVigier.jpg\" alt=\"Background Image\">",
-            "            <h2 class=\"text-white\">Content Area w fixed background image</h2>",
+            "            <h2 class=\"text-center text-white\">Content Area w fixed background image</h2>",
             "        </z-col>",
             "    </z-row>",
             "</z-container>"
