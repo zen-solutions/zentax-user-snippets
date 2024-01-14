@@ -2305,9 +2305,9 @@
         "prefix": "z-fade",
         "body": [
             "<div class=\"fade\">",
-            "    <div><img class=\"fade-item\" src=\"../../dist/img/placeholder/fernando-jorge.jpg\" alt=\"\"></div>",
-            "    <div><img class=\"fade-item\" src=\"../../dist/img/placeholder/CesarCouto.png\" alt=\"\"></div>",
-            "    <div><img class=\"fade-item\" src=\"../../dist/img/placeholder/scottwebb.png\" alt=\"\"></div>",
+            "    <div class=\"fade-item\"><img src=\"../../dist/img/placeholder/fernando-jorge.jpg\" alt=\"\"></div>",
+            "    <div class=\"fade-item\"><img src=\"../../dist/img/placeholder/CesarCouto.png\" alt=\"\"></div>",
+            "    <div class=\"fade-item\"><img src=\"../../dist/img/placeholder/scottwebb.png\" alt=\"\"></div>",
             "</div>"
         ],
         "description": "z-fade effect with multiple images"
