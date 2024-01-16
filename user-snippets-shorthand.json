@@ -25,5 +25,15 @@
             "<z-col>$0</z-col>"
         ],
         "description": "zenCSS col structure"
+    },"z-fluid": {
+        "prefix": "z-fluid",
+        "body": [
+            "<z-container-fluid>",
+            "    <z-row>",
+            "        <z-col>$0</z-col>",
+            "    </z-row>",
+            "</z-container-fluid>"
+        ],
+        "description": "Fluid container layout with a single column"
     }
 }
