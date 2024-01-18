@@ -34,7 +34,7 @@
             "        <a href=\"../index.html\"><img src=\"docs/images/logo.png\" alt=\"brand logo\"></a>",
             "    </div>",
             "    <div>",
-            "        <a id=\"hamburger-button-2\"><img src=\"docs/images/icons/bars.svg\" class=\"icon-header up-3\" alt=\"Menu\"></a>",
+            "        <a id=\"hamburger-button-2\"><img src=\"dist/img/icons/bars.svg\" class=\"icon-header up-3\" alt=\"Menu\"></a>",
             "    </div>",
             "    <nav class=\"top-nav\">", 
             "        <button id=\"close-button\" aria-label=\"Close\"><a class=\"close\"></a></button>",
