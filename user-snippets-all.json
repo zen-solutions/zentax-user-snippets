@@ -1254,7 +1254,7 @@
             "<z-container class=\"single page-section\">",
             "  <z-row class=\"card theme-light p-0\">",
             "    <z-col class=\"p-0 m-0 d-flex align-items-center\">",
-            "      <img src=\"docs/images/placeholder/placeholders/unsplash/headshots/150x150/2.jpg\" class=\"w-100\" alt=\"\">",
+            "      <img src=\"docs/images/placeholder/placeholders/unsplash/headshots/150x150/2.jpg\" class=\"w-100 side-card\" alt=\"\">",
             "      <div class=\"ml-3 p-2\">",
             "        <p class=\"text-bold headline\">A beautiful card...</p>",
             "        <p class=\"text-sm\">Lorem ipsum dolor ...</p>",
