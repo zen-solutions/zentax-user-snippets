@@ -1,4 +1,4 @@
-{
+ {
     "zenCSS z-container, z-row, and z-col Structure": {
         "prefix": "z-container>z-row>z-col",
         "body": [
@@ -35,7 +35,7 @@
             "</z-container-fluid>"
         ],
         "description": "Fluid container layout with a single column"
-    }. "z-page-section": {
+    }, "z-page-section": {
         "prefix": "z-page-section",
         "body": [
             "<z-container-fluid class=\"page-section\">",
