@@ -2323,5 +2323,13 @@
             "</z-container-fluid>"
         ],
         "description": "Fluid container layout with a single column and cursor positioned for content insertion"
+    }, "z-page-section": {
+        "prefix": "z-page-section",
+        "body": [
+            "<z-container-fluid class=\"page-section\">",
+            "    $0",
+            "</z-container-fluid>"
+        ],
+        "description": "Inserts a z-container-fluid with the 'page-section' class"
     }
 }
